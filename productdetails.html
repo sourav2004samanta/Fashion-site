@@ -1,0 +1,994 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pdoduct Details</title>
+
+        <!-- bootstrap -->
+
+<!-- <link rel="stylesheet" href="cssfiles/bootstrap.min.css"> -->
+<link rel="stylesheet" href="css/bootstrap.min.css">
+
+
+<!-- css -->
+<link rel="stylesheet" href="css/productdetails.css">
+<link rel="stylesheet" href="https://code.jquery.com/ui/1.14.1/themes/base/jquery-ui.css">
+<link rel="stylesheet" href="/resources/demos/style.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+<!-- swiper js -->
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+<!-- icon -->
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    
+    <!-- <section class="navbar"> -->
+        <!-- <div class="nav"> -->
+            <!-- <div class="logo">
+                <img src="image/Logoeuphoria.png" width="110px" height="45px" alt="logo">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+
+            <div class="list_item">
+                <ol>
+                    <li>Shop</li>
+                    <li>Men</li>
+                    <li>Women</li>
+                    <li>Combos</li>
+                    <li>Joggers</li>
+                </ol>
+            </div>
+
+            <div class="input_box">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <input type="text" placeholder="Search">
+            </div>
+
+            <div class="icons">
+                <div class="wish_icon">
+                    <i class="fa-regular fa-heart"></i>
+                </div>
+                <div class="user_icon">
+                    <i class="fa-regular fa-user"></i>
+                </div>
+                <div class="cart_icon">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                </div>
+            </div> -->
+        <!-- </div> -->
+    <!-- </section> -->
+
+
+
+    <section class="navbar">
+      <!-- <div class="nav"> -->
+          <div class="logo">
+              <img src="image/Logoeuphoria.png" width="110px" height="45px" alt="logo">
+          </div>
+
+          <div class="list_item">
+              <ol>
+                  <li>Shop</li>
+                  <li>Men</li>
+                  <li>Women</li>
+                  <li>Combos</li>
+                  <li>Joggers</li>
+              </ol>
+          </div>
+
+          <div class="input_box">
+              <i class="fa-solid fa-magnifying-glass"></i>
+              <input type="text" placeholder="Search">
+          </div>
+
+          <div class="icons">
+              <div class="wish_icon">
+                  <!-- <i class="fa-regular fa-heart"></i> -->
+                   <!-- <svg class="heart-icon">
+                    <use href="assets/icons.svg#heart"></use>
+                   </svg> -->
+              </div>
+              <div class="user_icon">
+                  <!-- <i class="fa-regular fa-user"></i> -->
+                   <!-- <svg class="user_profile">
+                    <use href="assets/icons.svg#user"></use>
+                   </svg> -->
+              </div>
+              <div class="cart_icon">
+                <!-- <svg class="shopping_cart">
+                  <use href="assets/icons.svg#cart_icon">
+
+                  </use>
+                </svg> -->
+                  <!-- <i class="fa-solid fa-cart-shopping"></i> -->
+              </div>
+          </div>
+      <!-- </div> -->
+
+  </section>
+
+
+  <section class="responsive_nav">
+  
+    <div class="right_offcanvas">
+      <!-- <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">Toggle right offcanvas</button> -->
+      <div class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
+        <i class="fa-solid fa-bars"></i>
+      </div>
+  
+      <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+        <div class="offcanvas-header">
+          <h5 id="offcanvasRightLabel">Menu</h5>
+          <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <ul>
+            <li>Shop</li>
+            <li>Men</li>
+            <li>Women</li>
+            <li>Combos</li>
+            <li>Joggers</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  
+  
+      <div class="logo">
+        <img src="image/Logoeuphoria.png" width="110px" height="45px" alt="logo">
+      </div>
+  
+  
+      <div class="icons">
+        <div class="wish_icon">
+            <i class="fa-regular fa-heart"></i>
+        </div>
+        <div class="user_icon">
+            <i class="fa-regular fa-user"></i>
+        </div>
+        <div class="cart_icon">
+            <i class="fa-solid fa-cart-shopping"></i>
+        </div>
+      </div>
+    </section>
+    <section class="search">
+      <div class="input_box">
+        <i class="fa-solid fa-magnifying-glass"></i>
+        <input type="text" placeholder="Search">
+      </div>
+    </section>
+
+    <!-- up down swiper -->
+
+<section class="swipe_describe">
+
+    <div class="left_blank">
+      <div class="small_photo">
+        <div onclick="imageOne()">
+          <img src="image/Rectangle 52.png" width="70px" height="70px" alt="image" id="small_photoOne" >
+        </div>
+        <div onclick="imageTwo()">
+          <img src="image/hoodie.jpg" width="70px" height="70px" alt="image" id="small_photoTwo" >
+        </div>
+        <div onclick="imageThree()">
+          <img src="image/hoodie2.jpg" width="70px" height="70px" alt="image" id="small_photoThree" >
+        </div>
+      </div>
+      <div class="big_photo">
+        <img src="image/Rectangle 52.png" width="550px" height="750px" alt="image" id="bigImage_one">
+        <img src="image/hoodie.jpg" width="550px" height="750px" alt="image" id="bigImage_two">
+        <img src="image/hoodie2.jpg" width="550px" height="750px" alt="image"id="bigImage_three">
+      </div>
+    </div>
+
+
+    <!-- responsive swipe -->
+  <section class="responsive_swiper">
+    <div style="--swiper-navigation-color: #fff; --swiper-pagination-color: #fff" class="swiper mySwiper2">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide main_swiper">
+          <img src="image/Rectangle 52.png" />
+        </div>
+        <div class="swiper-slide main_swiper">
+          <img src="image/hoodie.jpg" />
+        </div>
+        <div class="swiper-slide main_swiper">
+          <img src="image/hoodie2.jpg" />
+        </div>
+      </div>
+      <!-- <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div> -->
+    </div>
+    <div thumbsSlider="" class="swiper mySwiper">
+      <div class="swiper-wrapper sub_swipsmall">
+        <div class="swiper-slide sub_swiper">
+          <img src="image/Rectangle 52.png" />
+        </div>
+        <div class="swiper-slide sub_swiper">
+          <img src="image/hoodie.jpg" />
+        </div>
+        <div class="swiper-slide sub_swiper">
+          <img src="image/hoodie2.jpg" />
+        </div>
+      </div>
+    </div>
+  </section>   
+
+
+    <!-- description part -->
+
+    <div class="item_descripe">
+      <ul>
+        <li>Shop <i class="fa-solid fa-angle-right"></i></li>
+        <li>Women <i class="fa-solid fa-angle-right"></i></li>
+        <li>Top <i class="fa-solid fa-angle-right"></i></li>
+      </ul>
+      <h1>Raven Hoodie With Black colored Design</h1>
+      <div class="rating">
+        <div class="star_rating">
+          <img src="image/Frame 20.png" width="150px" height="25px" alt="star">
+          <h2>3.5</h2>
+        </div>
+        <div class="comment">
+          <img src="image/Icon.png" width="20px" height="20px" alt="comment">
+          <h2>120 comment</h2>
+        </div>
+      </div>
+      <div class="sizes">
+        <div class="sizes_arrow">
+          <h1>Select Size</h1>
+          <div class="arrow_size">
+          <h2>Size Guide</h2>
+          <i class="fa-solid fa-angle-right"></i>
+          </div>
+        </div>
+        <div class="sizes_button">
+          <button type="button">XS</button>
+          <button type="button">S</button>
+          <button type="button">M</button>
+          <button type="button">L</button>
+          <button type="button">XL</button>
+        </div>
+      </div>
+      <div class="color_part">
+        <h2>Colours Available </h2>
+        <div class="select_color">
+          <div class="black"></div>
+          <div class="yellow"></div>
+          <div class="pink"></div>
+          <div class="red"></div>
+        </div>
+      </div>
+      <div class="add_cart">
+        <button type="button"><i class="fa-solid fa-cart-shopping"></i> Add to cart</button>
+        <button type="button"><i class="fa-solid fa-dollar-sign"></i> 63.00</button>
+      </div>
+      <div class="dash"></div>
+      <div class="payment">
+        <div class="payment_size">
+          <div class="wallet">
+            <div class="icon">
+            <i class="fa-solid fa-wallet"></i>
+            </div>
+            <h3>Secure payment</h3>
+          </div>
+          <div class="fit">
+            <div class="icon">
+            <i class="fa-solid fa-shirt"></i>
+            </div>
+            <h3>Size & Fit</h3>
+          </div>
+        </div>
+        <div class="free_shiping">
+          <div class="shipping">
+            <div class="icon">
+            <i class="fa-solid fa-truck"></i>
+            </div>
+            <h3>Free shipping</h3>
+          </div>
+          <div class="return">
+            <div class="icon">
+            <i class="fa-solid fa-arrow-right-arrow-left"></i>
+            </div>
+            <h3>Free Shipping & Returns</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+
+</section>
+
+
+<!-- product description -->
+
+
+<div class="clothing">
+  <div class="shape"></div>
+  <h2>Buy Women's Clothing at Best Price</h2>
+</div>
+
+<section class="list_video">
+<div class="list_button">
+  <ul>
+    <li>Description</li>
+    <li>User comments</li>
+    <li>Question & Answer</li>
+  </ul>
+  <div class="describe_list"><p>100% Bio-washed Cotton - makes the fabric extra soft & silky. Flexible ribbed crew neck. Precisely stitched with no pilling & no fading. Provide  all-time comfort. Anytime, anywhere. Infinite range of matte-finish HD prints.</p></div>
+
+  <table>
+    <tr>
+      <td id="right_border"><h1>Fabric </h1>
+        <h2>Bio-washed Cotton</h2>
+      </td>
+      <td id="right_border"><h1>Pattern </h1>
+        <h2>Printed</h2>
+      </td>
+      <td id="bottom_border"><h1>Fit </h1>
+        <h2>Regular-fit</h2>
+      </td>
+    </tr>
+    <tr>
+      <td id="bottom_line"><h1>Neck </h1>
+        <h2>Round Neck</h2>
+      </td>
+      <td id="bottom_line"><h1>Sleeve </h1>
+        <h2>Half-sleeves</h2>
+      </td>
+      <td><h1>Style </h1>
+        <h2>Casual Wear</h2>
+      </td>
+    </tr>
+  </table>
+  <div class="comments_list">
+    <div class="profile_pic">
+      <img src="image/profile.jpg" width="70px"
+      height="70px" alt="profile">
+    </div>
+    <div class="comment_describe">
+      <div class="timer">
+        <h1>Andrew smith</h1>
+        <h2>6 hours ago</h2>
+      </div>
+      <h3>Hello everyone! How are you ? Comment down</h3>
+      <div class="reply">
+        <h4>Reply</h4>
+        <div class="like">
+          <i class="fa-solid fa-thumbs-up"></i>
+          <i class="fa-solid fa-thumbs-down"></i>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</section>
+
+<!-- video part -->
+
+<div class="video_part">
+  <video src="image/Essentials Clothing Shoot _ Promotional Video.mp4" poster="image/Frame 47.png" width="450px" height="300px" controls></video>
+</div>
+</section>
+
+
+<!-- similar product -->
+
+<!-- <section class="limelight">
+  <div class="fashion_image">
+    <div class="cart">
+      <img src="image/Rectangle 55.png" width="280px" height="370" alt="image">
+      <div class="wish_icon">
+        <i class="fa-regular fa-heart"></i>
+      </div>
+      <div class="text_price">
+        <div class="text_bold">
+          <h1>Black Sweatshirt with ....</h1>
+          <h2>Jhanvi's  Brand</h2>
+        </div>
+        <div class="price_part">
+          <button type="button">$123.00</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="cart">
+      <img src="image/Rectangle 24.png" width="280px" height="370" alt="image">
+      <div class="wish_icon">
+        <i class="fa-regular fa-heart"></i>
+      </div>
+      <div class="text_price">
+        <div class="text_bold">
+          <h1>line Pattern Black H...</h1>
+          <h2>AS's  Brand</h2>
+        </div>
+        <div class="price_part">
+          <button type="button">$37.00</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="cart">
+      <img src="image/Rectangle 38.png" width="280px" height="370" alt="image">
+      <div class="wish_icon">
+        <i class="fa-regular fa-heart"></i>
+      </div>
+      <div class="text_price">
+        <div class="text_bold">
+          <h1>Black Shorts</h1>
+          <h2>MM's  Brand</h2>
+        </div>
+        <div class="price_part">
+          <button type="button">$37.00</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="cart">
+      <img src="image/Rectangle 56.png" width="280px" height="370" alt="image">
+      <div class="wish_icon">
+        <i class="fa-regular fa-heart"></i>
+      </div>
+      <div class="text_price">
+        <div class="text_bold">
+          <h1>Black Sweatshirt with ....</h1>
+          <h2>Jhanvi's  Brand</h2>
+        </div>
+        <div class="price_part">
+          <button type="button">$123.00</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="limelight display_limelight" >
+  <div class="fashion_image">
+    <div class="cart">
+      <img src="image/Rectangle 57.png" width="280px" height="370" alt="image">
+      <div class="wish_icon">
+        <i class="fa-regular fa-heart"></i>
+      </div>
+      <div class="text_price">
+        <div class="text_bold">
+          <h1>Black Sweatshirt with ....</h1>
+          <h2>Jhanvi's  Brand</h2>
+        </div>
+        <div class="price_part">
+          <button type="button">$123.00</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="cart">
+      <img src="image/Rectangle 20.png" width="280px" height="370" alt="image">
+      <div class="wish_icon">
+        <i class="fa-regular fa-heart"></i>
+      </div>
+      <div class="text_price">
+        <div class="text_bold">
+          <h1>line Pattern Black H...</h1>
+          <h2>AS's  Brand</h2>
+        </div>
+        <div class="price_part">
+          <button type="button">$37.00</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="cart">
+      <img src="image/Rectangle 58.png" width="280px" height="370" alt="image">
+      <div class="wish_icon">
+        <i class="fa-regular fa-heart"></i>
+      </div>
+      <div class="text_price">
+        <div class="text_bold">
+          <h1>Black Shorts</h1>
+          <h2>MM's  Brand</h2>
+        </div>
+        <div class="price_part">
+          <button type="button">$37.00</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="cart">
+      <img src="image/Rectangle 59.png" width="280px" height="370" alt="image">
+      <div class="wish_icon">
+        <i class="fa-regular fa-heart"></i>
+      </div>
+      <div class="text_price">
+        <div class="text_bold">
+          <h1>Black Sweatshirt with ....</h1>
+          <h2>Jhanvi's  Brand</h2>
+        </div>
+        <div class="price_part">
+          <button type="button">$123.00</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section> -->
+
+
+
+
+<div class="row catagories">
+  <div class="col-6 col-md-6  col-lg-3 shopping_top">
+    <div class="cart">
+      <img src="image/Rectangle 55.png" width="280px" height="370" alt="image">
+      <div class="wish_icon">
+        <i class="fa-regular fa-heart"></i>
+      </div>
+      <div class="text_price">
+        <div class="text_bold">
+          <h1>Black Sweatshirt with ....</h1>
+          <h2>Jhanvi's  Brand</h2>
+        </div>
+        <div class="price_part">
+          <button type="button">$123.00</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="col-6 col-md-6  col-lg-3 shopping_top shopping_left">
+    <div class="cart">
+      <img src="image/Rectangle 24.png" width="280px" height="370" alt="image">
+      <div class="wish_icon">
+        <i class="fa-regular fa-heart"></i>
+      </div>
+      <div class="text_price">
+        <div class="text_bold">
+          <h1>line Pattern Black H...</h1>
+          <h2>AS's  Brand</h2>
+        </div>
+        <div class="price_part">
+          <button type="button">$37.00</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="col-6 col-md-6  col-lg-3 shopping_top">
+    <div class="cart">
+      <img src="image/Rectangle 38.png" width="280px" height="370" alt="image">
+      <div class="wish_icon">
+        <i class="fa-regular fa-heart"></i>
+      </div>
+      <div class="text_price">
+        <div class="text_bold">
+          <h1>Black Shorts</h1>
+          <h2>MM's  Brand</h2>
+        </div>
+        <div class="price_part">
+          <button type="button">$37.00</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="col-6 col-md-6  col-lg-3 shopping_top shopping_left">
+    <div class="cart">
+      <img src="image/Rectangle 56.png" width="280px" height="370" alt="image">
+      <div class="wish_icon">
+        <i class="fa-regular fa-heart"></i>
+      </div>
+      <div class="text_price">
+        <div class="text_bold">
+          <h1>Levender Hoodie with ....</h1>
+          <h2>Nike's  Brand</h2>
+        </div>
+        <div class="price_part">
+          <button type="button">$119.00</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="row catagories display_limelight">
+  <div class="col-6 col-md-6  col-lg-3 shopping_top">
+    <div class="cart">
+      <img src="image/Rectangle 55.png" width="280px" height="370" alt="image">
+      <div class="wish_icon">
+        <i class="fa-regular fa-heart"></i>
+      </div>
+      <div class="text_price">
+        <div class="text_bold">
+          <h1>Black Sweatshirt with ....</h1>
+          <h2>Jhanvi's  Brand</h2>
+        </div>
+        <div class="price_part">
+          <button type="button">$123.00</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="col-6 col-md-6  col-lg-3 shopping_top shopping_left">
+    <div class="cart">
+      <img src="image/Rectangle 24.png" width="280px" height="370" alt="image">
+      <div class="wish_icon">
+        <i class="fa-regular fa-heart"></i>
+      </div>
+      <div class="text_price">
+        <div class="text_bold">
+          <h1>line Pattern Black H...</h1>
+          <h2>AS's  Brand</h2>
+        </div>
+        <div class="price_part">
+          <button type="button">$37.00</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="col-6 col-md-6  col-lg-3 shopping_top">
+    <div class="cart">
+      <img src="image/Rectangle 38.png" width="280px" height="370" alt="image">
+      <div class="wish_icon">
+        <i class="fa-regular fa-heart"></i>
+      </div>
+      <div class="text_price">
+        <div class="text_bold">
+          <h1>Black Shorts</h1>
+          <h2>MM's  Brand</h2>
+        </div>
+        <div class="price_part">
+          <button type="button">$37.00</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="col-6 col-md-6  col-lg-3 shopping_top shopping_left">
+    <div class="cart">
+      <img src="image/Rectangle 56.png" width="280px" height="370" alt="image">
+      <div class="wish_icon">
+        <i class="fa-regular fa-heart"></i>
+      </div>
+      <div class="text_price">
+        <div class="text_bold">
+          <h1>Levender Hoodie with ....</h1>
+          <h2>Nike's  Brand</h2>
+        </div>
+        <div class="price_part">
+          <button type="button">$119.00</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- footer -->
+
+<!-- <section class="footer">
+  <div class="footers_padding">
+    <div class="footer_list">
+      <div class="need">
+        <h1>Need Help</h1>
+        <ol>
+          <li>Contact Us</li>
+          <li>Track Order</li>
+          <li>Returns & Refunds</li>
+          <li>FAQ's</li>
+          <li>Career</li>
+        </ol>
+      </div>
+
+      <div class="need">
+        <h1>Company</h1>
+        <ol>
+          <li>About Us</li>
+          <li>euphoria Blog</li>
+          <li>euphoriastan</li>
+          <li>Collaboration</li>
+          <li>Media</li>
+        </ol>
+      </div>
+
+      <div class="need">
+        <h1>More Info</h1>
+        <ol>
+          <li>Term and Conditions</li>
+          <li>Privacy Policy</li>
+          <li>Shipping Policy</li>
+          <li>Sitemap</li>
+        </ol>
+      </div>
+
+      <div class="need">
+        <h1>Location</h1>
+        <ol>
+          <li>support@euphoria.in</li>
+          <li>Eklingpura Chouraha, Ahmedabad Main Road</li>
+          <li>(NH 8- Near Mahadev Hotel) Udaipur, India- 313002</li>
+        </ol>
+      </div>
+    </div>
+
+    <div class="download">
+      <div class="social_icons">
+        <div class="media">
+          <i class="fa-brands fa-facebook"></i>
+        </div>
+        <div class="media">
+          <i class="fa-brands fa-instagram"></i>
+        </div>
+        <div class="media">
+          <i class="fa-brands fa-twitter"></i>
+        </div>
+        <div class="media">
+          <i class="fa-brands fa-linkedin"></i>
+        </div>
+      </div>
+      <div class="app_download">
+        <h1>Download The App </h1>
+        <div class="googlestore">
+          <div class="playstore">
+            <img src="image/Group.png" width="30px" height="30px" alt="logo">
+            <div class="google">
+              <h2>android app on</h2>
+              <h3>Google Play</h3>
+            </div>
+          </div>
+          <div class="playstore">
+            <img src="image/Group2.png" width="30px" height="30px" alt="logo">
+            <div class="google">
+              <h2>Available on the</h2>
+              <h3>App Store</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="dash"></div>
+  <div class="popular_catagory">
+    <h1>Popular Categories</h1>
+    <i class="fa-solid fa-angle-down"></i>
+  </div>
+  <div class="dash"></div>
+  <h5>Copyright © 2023 Euphoria Folks Pvt Ltd. All rights reserved.</h5>
+</section> -->
+
+
+
+
+<section class="footer">
+  <div class="footers_padding container-fluid">
+    <div class="footer_list row">
+      <div class="need col-6 col-md-6  col-lg-3 ">
+        <h1>Need Help</h1>
+        <ol>
+          <li>Contact Us</li>
+          <li>Track Order</li>
+          <li>Returns & Refunds</li>
+          <li>FAQ's</li>
+          <li>Career</li>
+        </ol>
+      </div>
+
+      <div class="need col-6 col-md-6  col-lg-3 ">
+        <h1>Company</h1>
+        <ol>
+          <li>About Us</li>
+          <li>euphoria Blog</li>
+          <li>euphoriastan</li>
+          <li>Collaboration</li>
+          <li>Media</li>
+        </ol>
+      </div>
+
+      <div class="need col-6 col-md-6  col-lg-3 ">
+        <h1>More Info</h1>
+        <ol>
+          <li>Term and Conditions</li>
+          <li>Privacy Policy</li>
+          <li>Shipping Policy</li>
+          <li>Sitemap</li>
+        </ol>
+      </div>
+
+      <div class="need col-6 col-md-6  col-lg-3 ">
+        <h1>Location</h1>
+        <ol>
+          <li>support@euphoria.in</li>
+          <li>Eklingpura Chouraha, Ahmedabad Main Road</li>
+          <li>(NH 8- Near Mahadev Hotel) Udaipur, India- 313002</li>
+        </ol>
+      </div>
+    </div>
+
+
+    
+
+
+
+
+    <div class="download">
+      <div class="social_icons">
+        <div class="media">
+          <i class="fa-brands fa-facebook"></i>
+        </div>
+        <div class="media">
+          <i class="fa-brands fa-instagram"></i>
+        </div>
+        <div class="media">
+          <i class="fa-brands fa-twitter"></i>
+        </div>
+        <div class="media">
+          <i class="fa-brands fa-linkedin"></i>
+        </div>
+      </div>
+      <div class="app_download">
+        <h1>Download The App </h1>
+        <div class="googlestore">
+          <div class="playstore">
+            <img src="image/Group.png" width="30px" height="30px" alt="logo">
+            <div class="google">
+              <h2>android app on</h2>
+              <h3>Google Play</h3>
+            </div>
+          </div>
+          <div class="playstore">
+            <img src="image/Group2.png" width="30px" height="30px" alt="logo">
+            <div class="google">
+              <h2>Available on the</h2>
+              <h3>App Store</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="dash"></div>
+  <div class="popular_catagory">
+    <h1>Popular Categories</h1>
+    <i class="fa-solid fa-angle-down"></i>
+  </div>
+  <div class="dash"></div>
+  <h5>Copyright © 2023 Euphoria Folks Pvt Ltd. All rights reserved.</h5>
+</section>
+
+
+<!-- <div style="--swiper-navigation-color: #fff; --swiper-pagination-color: #fff" class="swiper mySwiper2">
+  <div class="swiper-wrapper">
+    <div class="swiper-slide hello2">
+      <img src="https://swiperjs.com/demos/images/nature-1.jpg" />
+    </div>
+    <div class="swiper-slide hello2">
+      <img src="https://swiperjs.com/demos/images/nature-2.jpg" />
+    </div>
+    <div class="swiper-slide hello2">
+      <img src="https://swiperjs.com/demos/images/nature-3.jpg" />
+    </div>
+  </div>
+  <div class="swiper-button-next"></div>
+  <div class="swiper-button-prev"></div>
+</div>
+<div thumbsSlider="" class="swiper mySwiper">
+  <div class="swiper-wrapper">
+    <div class="swiper-slide hello">
+      <img src="https://swiperjs.com/demos/images/nature-1.jpg" />
+    </div>
+    <div class="swiper-slide hello">
+      <img src="https://swiperjs.com/demos/images/nature-2.jpg" />
+    </div>
+    <div class="swiper-slide hello">
+      <img src="https://swiperjs.com/demos/images/nature-3.jpg" />
+    </div>
+  </div>
+</div> -->
+
+
+
+
+
+
+
+
+
+    <!-- <script src="jsfiles/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+    <script src="https://code.jquery.com/ui/1.14.1/jquery-ui.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script> -->
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+     <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+     <script src="https://code.jquery.com/ui/1.14.1/jquery-ui.js"></script>
+    <script>
+      const BigOne = document.getElementById('bigImage_one');
+      const BigTwo = document.getElementById('bigImage_two');
+      const BigThree = document.getElementById('bigImage_three');
+
+      const smallfirst = document.getElementById('small_photoOne');
+      const smallsecond = document.getElementById('small_photoTwo');
+      const smallthird = document.getElementById('small_photoThree');
+
+      function imageOne(){
+        BigOne.style.display = 'block';
+        smallfirst.style.border = '2px solid black';
+        smallsecond.style.border = 'none';
+        smallthird.style.border = 'none';
+        BigTwo.style.display = 'none';
+        BigThree.style.display = 'none';
+      }
+      function imageTwo(){
+        BigTwo.style.display = 'block';
+        smallsecond.style.border = '2px solid black';
+        smallfirst.style.border = 'none';
+        smallthird.style.border = 'none';
+        BigOne.style.display = 'none';
+        BigThree.style.display = 'none';
+      }
+      function imageThree(){
+        BigThree.style.display = 'block';
+        smallthird.style.border = '2px solid black';
+        smallfirst.style.border = 'none';
+        smallsecond.style.border ='none'
+        BigOne.style.display = 'none';
+        BigTwo.style.display = 'none';
+      }
+    </script>
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+          loop: true,
+          spaceBetween: 10,
+          slidesPerView: 4,
+          freeMode: true,
+          watchSlidesProgress: true,
+        });
+        var swiper2 = new Swiper(".mySwiper2", {
+          loop: true,
+          spaceBetween: 10,
+          navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+          },
+          thumbs: {
+            swiper: swiper,
+          },
+        });
+      </script>
+
+
+
+
+    
+<!-- updown swiper responsive -->
+
+
+<!-- Swiper JS -->
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+<!-- Initialize Swiper -->
+<script>
+  var swiper = new Swiper(".mySwiper", {
+    spaceBetween: 10,
+    slidesPerView: 4,
+    freeMode: true,
+    watchSlidesProgress: true,
+  });
+  var swiper2 = new Swiper(".mySwiper2", {
+    spaceBetween: 10,
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
+    thumbs: {
+      swiper: swiper,
+    },
+  });
+</script>
+   
+</body>
+</html>

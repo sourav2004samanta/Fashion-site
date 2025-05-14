@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+
+<!-- css -->
+<link rel="stylesheet" href="css/cartpage.css">
+<link rel="stylesheet" href="https://code.jquery.com/ui/1.14.1/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="/resources/demos/style.css">
+
+<!-- swiper js -->
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+<!-- icon -->
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    
+
+        <!-- navbar -->
+
+
+        <section class="navbar">
+            <!-- <div class="nav"> -->
+                <div class="logo">
+                    <img src="image/Logoeuphoria.png" width="110px" height="45px" alt="logo">
+                </div>
+      
+                <div class="list_item">
+                    <ol>
+                        <li>Shop</li>
+                        <li>Men</li>
+                        <li>Women</li>
+                        <li>Combos</li>
+                        <li>Joggers</li>
+                    </ol>
+                </div>
+      
+                <div class="input_box">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <input type="text" placeholder="Search">
+                </div>
+      
+                <div class="icons">
+                    <div class="wish_icon">
+                        <!-- <i class="fa-regular fa-heart"></i> -->
+                         <!-- <svg class="heart-icon">
+                          <use href="assets/icons.svg#heart"></use>
+                         </svg> -->
+                    </div>
+                    <div class="user_icon">
+                        <!-- <i class="fa-regular fa-user"></i> -->
+                         <!-- <svg class="user_profile">
+                          <use href="assets/icons.svg#user"></use>
+                         </svg> -->
+                    </div>
+                    <div class="cart_icon">
+                      <!-- <svg class="shopping_cart">
+                        <use href="assets/icons.svg#cart_icon">
+      
+                        </use>
+                      </svg> -->
+                        <!-- <i class="fa-solid fa-cart-shopping"></i> -->
+                    </div>
+                </div>
+            <!-- </div> -->
+      
+        </section>
+      
+        
+      
+        <!-- responsive navbar -->
+      
+      
+      
+        <section class="responsive_nav">
+        
+        <div class="right_offcanvas">
+          <!-- <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">Toggle right offcanvas</button> -->
+          <div class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
+            <i class="fa-solid fa-bars"></i>
+          </div>
+      
+          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+            <div class="offcanvas-header">
+              <h5 id="offcanvasRightLabel">Menu</h5>
+              <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul>
+                <li>Shop</li>
+                <li>Men</li>
+                <li>Women</li>
+                <li>Combos</li>
+                <li>Joggers</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      
+      
+          <div class="logo">
+            <img src="image/Logoeuphoria.png" width="110px" height="45px" alt="logo">
+          </div>
+      
+      
+          <div class="icons">
+            <div class="wish_icon">
+                <i class="fa-regular fa-heart"></i>
+            </div>
+            <div class="user_icon">
+                <i class="fa-regular fa-user"></i>
+            </div>
+            <div class="cart_icon">
+                <i class="fa-solid fa-cart-shopping"></i>
+            </div>
+          </div>
+        </section>
+        <section class="search">
+          <div class="input_box">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <input type="text" placeholder="Search">
+          </div>
+        </section>
+
+
+
+        <!-- home icons -->
+
+
+    <div class="select_feild">
+        <div class="home">
+            <h1>Home</h1>
+            <i class="fa-solid fa-angle-right"></i>
+        </div>
+        <div class="check">
+            <h1>Add To Cart</h1>
+        </div>
+    </div>
+    <div class="paragraph">
+        <p>Please fill in the fields below and click place order to complete your purchase!
+            Already registered? <span>Please login here</span></p>
+    </div>
+
+
+
+    <!-- shopping cart -->
+
+<div class="shopping_cart">
+        <ul>
+            <li>PRODUCT DETAILS</li>
+            <li>PRICE</li>
+            <li>QUANTITY</li>
+            <li>SHIPPING</li>
+            <li>SUBTOTAL</li>
+            <li>ACTION</th>
+        </ul>
+</div>
+
+
+    <section class="cart_product">
+
+            <!-- IMAGE DESCRIBE -->
+            <div class="image_describe">
+                <div class="image_part">
+                    <img src="image/Rectangle 754.png" width="100px" height="100px" alt="image">
+                </div>
+                <div class="describe">
+                    <h1>Blue Flower Print Crop Top</h1>
+                    <p>Color : Yellow</p>
+                    <p>Size : M</p>
+                </div>
+            </div>
+
+
+            <!-- price -->
+
+            <div class="price">
+                <p>$29.00</p>
+            </div>
+
+            <!-- quantity -->
+          <section class="quantity">
+            <div class="quantity_wrap">
+              <div class="buttons">
+                <div class="minus">-</div>
+                <div class="number">3</div>
+                <div class="plus">+</div>
+              </div>
+            </div>
+          </section>
+
+            <!-- shipping -->
+             
+            <div class="shipping">
+                <h1>FREE</h1>
+            </div>
+
+            <!-- subtotal -->
+
+            <div class="sub_total">
+                <h1>$29.00</h1>
+            </div>
+
+            <!-- action -->
+
+            <div class="action">
+                <img src="image/deletecon.png" width="15px" height="18px" alt="image">
+            </div>
+
+            
+    </section>
+
+    <div class="dash"></div>
+
+
+
+
+        <section class="cart_product">
+
+            <!-- IMAGE DESCRIBE -->
+            <div class="image_describe">
+                <div class="image_part">
+                    <img src="image/Rectangle 734.png" width="100px" height="100px" alt="image">
+                </div>
+                <div class="describe">
+                    <h1>Blue Flower Print Crop Top</h1>
+                    <p>Color : Yellow</p>
+                    <p>Size : M</p>
+                </div>
+            </div>
+
+
+            <!-- price -->
+
+            <div class="price">
+                <p>$29.00</p>
+            </div>
+
+            <!-- quantity -->
+          <section class="quantity">
+            <div class="quantity_wrap">
+              <div class="buttons">
+                <div class="minus">-</div>
+                <div class="number">3</div>
+                <div class="plus">+</div>
+              </div>
+            </div>
+          </section>
+
+            <!-- shipping -->
+             
+            <div class="shipping">
+                <h1>FREE</h1>
+            </div>
+
+            <!-- subtotal -->
+
+            <div class="sub_total">
+                <h1>$29.00</h1>
+            </div>
+
+            <!-- action -->
+
+            <div class="action">
+                <img src="image/deletecon.png" width="15px" height="18px" alt="image">
+            </div>
+
+            
+    </section>
+
+    <div class="dash"></div>
+
+
+
+
+        <section class="cart_product">
+
+            <!-- IMAGE DESCRIBE -->
+            <div class="image_describe">
+                <div class="image_part">
+                    <img src="image/Rectangle 735.png" width="100px" height="100px" alt="image">
+                </div>
+                <div class="describe">
+                    <h1>Blue Flower Print Crop Top</h1>
+                    <p>Color : Yellow</p>
+                    <p>Size : M</p>
+                </div>
+            </div>
+
+
+            <!-- price -->
+
+            <div class="price">
+                <p>$29.00</p>
+            </div>
+
+            <!-- quantity -->
+          <section class="quantity">
+            <div class="quantity_wrap">
+              <div class="buttons">
+                <div class="minus">-</div>
+                <div class="number">3</div>
+                <div class="plus">+</div>
+              </div>
+            </div>
+          </section>
+
+            <!-- shipping -->
+             
+            <div class="shipping">
+                <h1>FREE</h1>
+            </div>
+
+            <!-- subtotal -->
+
+            <div class="sub_total">
+                <h1>$29.00</h1>
+            </div>
+
+            <!-- action -->
+
+            <div class="action">
+                <img src="image/deletecon.png" width="15px" height="18px" alt="image">
+            </div>
+
+            
+    </section>
+
+
+
+
+
+    <!-- discount codes -->
+
+
+    <section class="discount">
+      <div class="dicount">
+        <div class="left_part">
+          <h1>Discount  Codes</h1>
+          <h2>Enter your coupon code if you have one</h2>
+          <div class="apply_coupon">
+            <input type="text">
+            <button type="button">Apply Coupon</button>
+          </div>
+          <button type="button">Continue Shopping</button>
+        </div>
+
+        <div class="amount">
+          <div class="sub_total">
+            <h2>Sub Total </h2>
+            <h2>$513.00</h2>
+          </div>
+          <div class="shipping">
+            <h2>Shipping</h2>
+            <h2>$5.00</h2>
+          </div>
+          <div class="total">
+            <h2>Grand Total</h2>
+            <h2>$518.00</h2>
+          </div>
+          <div class="dashtwo"></div>
+          <div class="procced">
+            <button type="button">Proceed To Checkout</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- footer -->
+
+
+    <section class="footer">
+        <div class="footers_padding container-fluid">
+          <div class="footer_list row">
+            <div class="need col-6 col-md-6  col-lg-3 ">
+              <h1>Need Help</h1>
+              <ol>
+                <li>Contact Us</li>
+                <li>Track Order</li>
+                <li>Returns & Refunds</li>
+                <li>FAQ's</li>
+                <li>Career</li>
+              </ol>
+            </div>
+      
+            <div class="need col-6 col-md-6  col-lg-3 ">
+              <h1>Company</h1>
+              <ol>
+                <li>About Us</li>
+                <li>euphoria Blog</li>
+                <li>euphoriastan</li>
+                <li>Collaboration</li>
+                <li>Media</li>
+              </ol>
+            </div>
+      
+            <div class="need col-6 col-md-6  col-lg-3 ">
+              <h1>More Info</h1>
+              <ol>
+                <li>Term and Conditions</li>
+                <li>Privacy Policy</li>
+                <li>Shipping Policy</li>
+                <li>Sitemap</li>
+              </ol>
+            </div>
+      
+            <div class="need col-6 col-md-6  col-lg-3 ">
+              <h1>Location</h1>
+              <ol>
+                <li>support@euphoria.in</li>
+                <li>Eklingpura Chouraha, Ahmedabad Main Road</li>
+                <li>(NH 8- Near Mahadev Hotel) Udaipur, India- 313002</li>
+              </ol>
+            </div>
+          </div>
+      
+      
+          <div class="download">
+            <div class="social_icons">
+              <div class="media">
+                <i class="fa-brands fa-facebook"></i>
+              </div>
+              <div class="media">
+                <i class="fa-brands fa-instagram"></i>
+              </div>
+              <div class="media">
+                <i class="fa-brands fa-twitter"></i>
+              </div>
+              <div class="media">
+                <i class="fa-brands fa-linkedin"></i>
+              </div>
+            </div>
+            <div class="app_download">
+              <h1>Download The App </h1>
+              <div class="googlestore">
+                <div class="playstore">
+                  <img src="image/Group.png" width="30px" height="30px" alt="logo">
+                  <div class="google">
+                    <h2>android app on</h2>
+                    <h3>Google Play</h3>
+                  </div>
+                </div>
+                <div class="playstore">
+                  <img src="image/Group2.png" width="30px" height="30px" alt="logo">
+                  <div class="google">
+                    <h2>Available on the</h2>
+                    <h3>App Store</h3>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      
+        <div class="dash"></div>
+        <div class="popular_catagory">
+          <h1>Popular Categories</h1>
+          <i class="fa-solid fa-angle-down"></i>
+        </div>
+        <div class="dash"></div>
+        <h5>Copyright © 2023 Euphoria Folks Pvt Ltd. All rights reserved.</h5>
+      </section>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+    <script src="https://code.jquery.com/ui/1.14.1/jquery-ui.js"></script>
+</body>
+</html>

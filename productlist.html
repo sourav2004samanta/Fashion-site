@@ -1,0 +1,1311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>productlist</title>
+    
+
+    <!-- bootstrap -->
+
+<!-- <link rel="stylesheet" href="cssfiles/bootstrap.min.css"> -->
+<link rel="stylesheet" href="css/bootstrap.min.css">
+
+
+<!-- css -->
+<link rel="stylesheet" href="css/productlist.css">
+<link rel="stylesheet" href="https://code.jquery.com/ui/1.14.1/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="/resources/demos/style.css">
+
+<!-- swiper js -->
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+<!-- icon -->
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+<!-- <svg class="filter_father">
+  <use href="assets/icons.svg#filter_icon"></use>
+</svg> -->
+    
+    <!-- <section class="navbar"> -->
+        <!-- <div class="nav"> -->
+            <!-- <div class="logo">
+                <img src="image/Logoeuphoria.png" width="110px" height="45px" alt="logo">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+
+            <div class="list_item">
+                <ol>
+                    <li>Shop</li>
+                    <li>Men</li>
+                    <li>Women</li>
+                    <li>Combos</li>
+                    <li>Joggers</li>
+                </ol>
+            </div>
+
+            <div class="input_box">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <input type="text" placeholder="Search">
+            </div>
+
+            <div class="icons">
+                <div class="wish_icon">
+                    <i class="fa-regular fa-heart"></i>
+                </div>
+                <div class="user_icon">
+                    <i class="fa-regular fa-user"></i>
+                </div>
+                <div class="cart_icon">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                </div>
+            </div> -->
+        <!-- </div> -->
+    <!-- </section> -->
+
+
+    <!-- navbar -->
+
+
+    <section class="navbar">
+      <!-- <div class="nav"> -->
+          <div class="logo">
+              <img src="image/Logoeuphoria.png" width="110px" height="45px" alt="logo">
+          </div>
+
+          <div class="list_item">
+              <ol>
+                  <li>Shop</li>
+                  <li>Men</li>
+                  <li>Women</li>
+                  <li>Combos</li>
+                  <li>Joggers</li>
+              </ol>
+          </div>
+
+          <div class="input_box">
+              <i class="fa-solid fa-magnifying-glass"></i>
+              <input type="text" placeholder="Search">
+          </div>
+
+          <div class="icons">
+              <div class="wish_icon">
+                  <!-- <i class="fa-regular fa-heart"></i> -->
+                   <!-- <svg class="heart-icon">
+                    <use href="assets/icons.svg#heart"></use>
+                   </svg> -->
+              </div>
+              <div class="user_icon">
+                  <!-- <i class="fa-regular fa-user"></i> -->
+                   <!-- <svg class="user_profile">
+                    <use href="assets/icons.svg#user"></use>
+                   </svg> -->
+              </div>
+              <div class="cart_icon">
+                <!-- <svg class="shopping_cart">
+                  <use href="assets/icons.svg#cart_icon">
+
+                  </use>
+                </svg> -->
+                  <!-- <i class="fa-solid fa-cart-shopping"></i> -->
+              </div>
+          </div>
+      <!-- </div> -->
+
+  </section>
+
+  
+
+  <!-- responsive navbar -->
+
+
+
+  <section class="responsive_nav">
+  
+  <div class="right_offcanvas">
+    <!-- <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">Toggle right offcanvas</button> -->
+    <div class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
+      <i class="fa-solid fa-bars"></i>
+    </div>
+
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+      <div class="offcanvas-header">
+        <h5 id="offcanvasRightLabel">Menu</h5>
+        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body">
+        <ul>
+          <li>Shop</li>
+          <li>Men</li>
+          <li>Women</li>
+          <li>Combos</li>
+          <li>Joggers</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+
+    <div class="logo">
+      <img src="image/Logoeuphoria.png" width="110px" height="45px" alt="logo">
+    </div>
+
+
+    <div class="icons">
+      <div class="wish_icon">
+          <i class="fa-regular fa-heart"></i>
+      </div>
+      <div class="user_icon">
+          <i class="fa-regular fa-user"></i>
+      </div>
+      <div class="cart_icon">
+          <i class="fa-solid fa-cart-shopping"></i>
+      </div>
+    </div>
+  </section>
+  <section class="search">
+    <div class="input_box">
+      <i class="fa-solid fa-magnifying-glass"></i>
+      <input type="text" placeholder="Search">
+    </div>
+  </section>
+
+
+    <!-- acodian -->
+
+<!-- responsive acodian -->
+
+<section class="responsive_acodian">
+
+<div class="filter_acodian">
+   <div class="header">
+      <h2 onclick="lists()">FIilter</h2>
+      <i class="fa-solid fa-angle-down" onclick="lists()"></i>
+   </div>
+   <div class="list" id="list_display">
+      <ul>
+         <li>
+            <div class="filter">
+              <h3>Tops</h3>
+              <i class="fa-solid fa-angle-right"></i>
+            </div>
+         </li>
+         <li>
+            <div class="filter">
+              <h3>Printed T-shirts</h3>
+              <i class="fa-solid fa-angle-right"></i>
+            </div>
+         </li>
+         <li>
+            <div class="filter">
+              <h3>Plain T-shirts</h3>
+              <i class="fa-solid fa-angle-right"></i>
+            </div>
+         </li>
+         <li>
+            <div class="filter">
+              <h3>Kurti</h3>
+              <i class="fa-solid fa-angle-right"></i>
+            </div>
+         </li>
+         <li>
+            <div class="filter">
+              <h3>Boxers</h3>
+              <i class="fa-solid fa-angle-right"></i>
+            </div>
+         </li>
+         <li>
+            <div class="filter">
+              <h3>Full sleeve T-shirts</h3>
+              <i class="fa-solid fa-angle-right"></i>
+            </div>
+         </li>
+         <li>
+            <div class="filter">
+              <h3>Joggers</h3>
+              <i class="fa-solid fa-angle-right"></i>
+            </div>
+         </li>
+         <li>
+            <div class="filter">
+              <h3>Payjamas</h3>
+              <i class="fa-solid fa-angle-right"></i>
+            </div>
+         </li>
+         <li>
+            <div class="filter">
+              <h3>Jeans</h3>
+              <i class="fa-solid fa-angle-right"></i>
+            </div>
+         </li>
+      </ul>
+   </div>
+</div>
+
+
+
+<div class="price">
+
+   <div class="header">
+      <h2 onclick="price()">Price</h2>
+      <i class="fa-solid fa-angle-down" onclick="price()"></i>
+   </div>
+   <div class="list" id="price_list">
+      <p>
+         <label for="amount">Price range:</label>
+         <!-- <input type="text" id="amount" readonly="" style="border:0; color:#f6931f; font-weight:bold;"> -->
+      </p>
+             
+      <div id="slider-ranger">
+         <input type="range">
+      </div>
+   </div>
+</div>
+
+
+
+<div class="colors">
+   <div class="header">
+      <h2 onclick="colors()">Colors</h2>
+      <i class="fa-solid fa-angle-down" onclick="colors()"></i>
+   </div>
+   <div id="color_list">
+      <ul class="color_rowone">
+         <li></li>
+         <li></li>
+         <li></li>
+         <li></li>
+         <li></li>
+         <li></li>
+      </ul>
+      <ul class="color_rowtwo">
+         <li></li>
+         <li></li>
+         <li></li>
+         <li></li>
+         <li></li>
+         <li></li>
+      </ul>
+   </div>
+</div>
+
+
+
+<div class="sizes">
+   <div class="header">
+      <h2 onclick="sizes()">Sizes</h2>
+      <i class="fa-solid fa-angle-down" onclick="sizes()"></i>
+   </div>
+   <div class="list" id="sizes_list">
+      <ul>
+         <li>
+            <button type="button">XXS</button>
+         </li>
+         <li>
+            <button type="button">XL</button>
+         </li>
+         <li>
+            <button type="button">XS</button>
+         </li>
+      </ul>
+      <ul>
+         <li>
+            <button type="button">S</button>
+         </li>
+         <li>
+            <button type="button">M</button>
+         </li>
+         <li>
+            <button type="button">L</button>
+         </li>
+      </ul>
+      <ul>
+         <li>
+            <button type="button">XXL</button>
+         </li>
+         <li>
+            <button type="button">3XL</button>
+         </li>
+         <li>
+            <button type="button">4XL</button>
+         </li>
+      </ul>
+   </div>
+</div>
+
+
+
+<div class="filter_acodian">
+   <div class="header">
+      <h2 onclick="dressList()">Dress Style</h2>
+      <i class="fa-solid fa-angle-down" onclick="dressList()"></i>
+   </div>
+   <div class="list" id="dress_style">
+      <ul>
+         <li>
+            <div class="filter">
+              <h3>Tops</h3>
+              <i class="fa-solid fa-angle-right"></i>
+            </div>
+         </li>
+         <li>
+            <div class="filter">
+              <h3>Printed T-shirts</h3>
+              <i class="fa-solid fa-angle-right"></i>
+            </div>
+         </li>
+         <li>
+            <div class="filter">
+              <h3>Plain T-shirts</h3>
+              <i class="fa-solid fa-angle-right"></i>
+            </div>
+         </li>
+         <li>
+            <div class="filter">
+              <h3>Kurti</h3>
+              <i class="fa-solid fa-angle-right"></i>
+            </div>
+         </li>
+         <li>
+            <div class="filter">
+              <h3>Boxers</h3>
+              <i class="fa-solid fa-angle-right"></i>
+            </div>
+         </li>
+      </ul>
+   </div>
+</div>   
+
+</section>
+
+
+<!-- acodian -->
+
+  
+  <section class="acodian_display">
+    <div class="accordion" id="accordionPanelsStayOpenExample">
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+            Filter
+          </button>
+        </h2>
+        <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
+          <div class="accordion-body">
+            <div class="filter">
+              <h3>Tops</h3>
+              <i class="fa-solid fa-angle-right"></i>
+            </div>
+            <div class="filter">
+              <h3>Printed T-shirts</h3>
+              <i class="fa-solid fa-angle-right"></i>
+            </div>
+            <div class="filter">
+              <h3>Plain T-shirts</h3>
+              <i class="fa-solid fa-angle-right"></i>
+            </div>
+            <div class="filter">
+              <h3>Kurti</h3>
+              <i class="fa-solid fa-angle-right"></i>
+            </div>
+            <div class="filter">
+              <h3>Boxers</h3>
+              <i class="fa-solid fa-angle-right"></i>
+            </div>
+            <div class="filter">
+              <h3>Full sleeve T-shirts</h3>
+              <i class="fa-solid fa-angle-right"></i>
+            </div>
+            <div class="filter">
+              <h3>Joggers</h3>
+              <i class="fa-solid fa-angle-right"></i>
+            </div>
+            <div class="filter">
+              <h3>Payjamas</h3>
+              <i class="fa-solid fa-angle-right"></i>
+            </div>
+            <div class="filter">
+              <h3>Jeans</h3>
+              <i class="fa-solid fa-angle-right"></i>
+            </div>
+
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+            Price
+          </button>
+        </h2>
+        <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
+          <div class="accordion-body">
+            <p>
+              <label for="amount">Price range:</label>
+              <input type="text" id="amount" readonly="" style="border:0; color:#f6931f; font-weight:bold;">
+              
+            </p>
+             
+            <div id="slider-range"></div>
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+            Colors
+          </button>
+        </h2>
+        <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
+          <div class="accordion-body">
+            <div class="color_section">
+              <div class="first_row">
+                <div class="purple">
+                  <div class="color_purple"></div>
+                  <h1>Purple</h1>
+                </div>
+        
+                <div class="black">
+                  <div class="color_black"></div>
+                  <h1>Black</h1>
+                </div>
+        
+                <div class="red">
+                  <div class="color_red"></div>
+                  <h1>Red</h1>
+                </div>
+        
+                <div class="orange">
+                  <div class="color_orange"></div>
+                  <h1>Orange</h1>
+                </div>
+              </div> 
+              <div class="second_row">
+                <div class="navy">
+                  <div class="color_navy"></div>
+                  <h1>Navy</h1>
+                </div>
+        
+                <div class="white">
+                  <div class="color_white"></div>
+                  <h1>White</h1>
+                </div>
+        
+                <div class="broom">
+                  <div class="color_broom"></div>
+                  <h1>Broom</h1>
+                </div>
+        
+                <div class="green">
+                  <div class="color_green"></div>
+                  <h1>Green</h1>
+                </div>
+              </div>
+              <div class="third_row">
+                <div class="yellow">
+                  <div class="color_yellow"></div>
+                  <h1>Yellow</h1>
+                </div>
+        
+                <div class="grey">
+                  <div class="color_grey"></div>
+                  <h1>Grey</h1>
+                </div>
+        
+                <div class="pink">
+                  <div class="color_pink"></div>
+                  <h1>Pink</h1>
+                </div>
+        
+                <div class="blue">
+                  <div class="color_blue"></div>
+                  <h1>Blue</h1>
+                </div>
+              </div>
+            </div>
+        
+          </div>
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="panelsStayOpen-headingfour">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapsefour" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+            Size
+          </button>
+        </h2>
+        <div id="panelsStayOpen-collapsefour" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
+          <div class="accordion-body">
+            <div class="sizebtn">
+              <div class="sizebtn_one">
+                <button type="button">XXS</button>
+                <button type="button">XL</button>
+                <button type="button">XS</button>
+              </div>
+              <div class="sizebtn_one">
+                <button type="button">S</button>
+                <button type="button">M</button>
+                <button type="button">L</button>
+              </div>
+              <div class="sizebtn_one">
+                <button type="button">XXL</button>
+                <button type="button">3XL</button>
+                <button type="button">4XL</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="panelsStayOpen-headingfive">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapsefive" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+            Dress Style
+          </button>
+        </h2>
+        <div id="panelsStayOpen-collapsefive" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
+          <div class="accordion-body">
+            <div class="filter">
+              <h3>Classic</h3>
+              <i class="fa-solid fa-angle-right"></i>
+            </div>
+            <div class="filter">
+              <h3>Casual</h3>
+              <i class="fa-solid fa-angle-right"></i>
+            </div>
+            <div class="filter">
+              <h3>Business</h3>
+              <i class="fa-solid fa-angle-right"></i>
+            </div>
+            <div class="filter">
+              <h3>Sport</h3>
+              <i class="fa-solid fa-angle-right"></i>
+            </div>
+            <div class="filter">
+              <h3>Elegant</h3>
+              <i class="fa-solid fa-angle-right"></i>
+            </div>
+            <div class="filter">
+              <h3>Formal (evening)</h3>
+              <i class="fa-solid fa-angle-right"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- acodian cart part -->
+
+<div class="cart_wrap">
+  <div class="women_clothing">
+    <h1>Women's Clothing</h1>
+    <div class="new_recomended">
+      <h2>New</h2>
+      <h3>Recommended</h3>
+    </div>
+  </div>
+    <section class="limelight">
+      <div class="fashion_image">
+        <div class="cart">
+          <img src="image/Rectangle 35.png" width="280px" height="370" alt="image">
+          <div class="wish_icon">
+            <i class="fa-regular fa-heart"></i>
+          </div>
+          <div class="text_price">
+            <div class="text_bold">
+              <h1>Black Sweatshirt with ....</h1>
+              <h2>Jhanvi's  Brand</h2>
+            </div>
+            <div class="price_part">
+              <button type="button">$123.00</button>
+            </div>
+          </div>
+        </div>
+    
+        <div class="cart margin_gap">
+          <img src="image/Rectangle 34.png" width="280px" height="370" alt="image">
+          <div class="wish_icon">
+            <i class="fa-regular fa-heart"></i>
+          </div>
+          <div class="text_price">
+            <div class="text_bold">
+              <h1>line Pattern Black H...</h1>
+              <h2>AS's  Brand</h2>
+            </div>
+            <div class="price_part">
+              <button type="button">$37.00</button>
+            </div>
+          </div>
+        </div>
+    
+        <div class="cart cart_display">
+          <img src="image/Rectangle 38.png" width="280px" height="370" alt="image">
+          <div class="wish_icon">
+            <i class="fa-regular fa-heart"></i>
+          </div>
+          <div class="text_price">
+            <div class="text_bold">
+              <h1>Black Shorts</h1>
+              <h2>MM's  Brand</h2>
+            </div>
+            <div class="price_part">
+              <button type="button">$37.00</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="fashion_image">
+        <div class="cart">
+          <img src="image/Rectangle 41.png" width="280px" height="370" alt="image">
+          <div class="wish_icon">
+            <i class="fa-regular fa-heart"></i>
+          </div>
+          <div class="text_price">
+            <div class="text_bold">
+              <h1>Black Sweatshirt with ....</h1>
+              <h2>Jhanvi's  Brand</h2>
+            </div>
+            <div class="price_part">
+              <button type="button">$123.00</button>
+            </div>
+          </div>
+        </div>
+    
+        <div class="cart margin_gap">
+          <img src="image/Rectangle 42.png" width="280px" height="370" alt="image">
+          <div class="wish_icon">
+            <i class="fa-regular fa-heart"></i>
+          </div>
+          <div class="text_price">
+            <div class="text_bold">
+              <h1>line Pattern Black H...</h1>
+              <h2>AS's  Brand</h2>
+            </div>
+            <div class="price_part">
+              <button type="button">$37.00</button>
+            </div>
+          </div>
+        </div>
+    
+        <div class="cart cart_display">
+          <img src="image/Rectangle 37.png" width="280px" height="370" alt="image">
+          <div class="wish_icon">
+            <i class="fa-regular fa-heart"></i>
+          </div>
+          <div class="text_price">
+            <div class="text_bold">
+              <h1>Black Shorts</h1>
+              <h2>MM's  Brand</h2>
+            </div>
+            <div class="price_part">
+              <button type="button">$37.00</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="fashion_image">
+        <div class="cart">
+          <img src="image/Rectangle 43.png" width="280px" height="370" alt="image">
+          <div class="wish_icon">
+            <i class="fa-regular fa-heart"></i>
+          </div>
+          <div class="text_price">
+            <div class="text_bold">
+              <h1>Black Sweatshirt with ....</h1>
+              <h2>Jhanvi's  Brand</h2>
+            </div>
+            <div class="price_part">
+              <button type="button">$123.00</button>
+            </div>
+          </div>
+        </div>
+    
+        <div class="cart margin_gap">
+          <img src="image/Rectangle 44.png" width="280px" height="370" alt="image">
+          <div class="wish_icon">
+            <i class="fa-regular fa-heart"></i>
+          </div>
+          <div class="text_price">
+            <div class="text_bold">
+              <h1>line Pattern Black H...</h1>
+              <h2>AS's  Brand</h2>
+            </div>
+            <div class="price_part">
+              <button type="button">$37.00</button>
+            </div>
+          </div>
+        </div>
+    
+        <div class="cart cart_display">
+          <img src="image/Rectangle 45.png" width="280px" height="370" alt="image">
+          <div class="wish_icon">
+            <i class="fa-regular fa-heart"></i>
+          </div>
+          <div class="text_price">
+            <div class="text_bold">
+              <h1>Black Shorts</h1>
+              <h2>MM's  Brand</h2>
+            </div>
+            <div class="price_part">
+              <button type="button">$37.00</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="fashion_image">
+        <div class="cart">
+          <img src="image/Rectangle 46.png" width="280px" height="370" alt="image">
+          <div class="wish_icon">
+            <i class="fa-regular fa-heart"></i>
+          </div>
+          <div class="text_price">
+            <div class="text_bold">
+              <h1>Black Sweatshirt with ....</h1>
+              <h2>Jhanvi's  Brand</h2>
+            </div>
+            <div class="price_part">
+              <button type="button">$123.00</button>
+            </div>
+          </div>
+        </div>
+    
+        <div class="cart margin_gap">
+          <img src="image/Rectangle 47.png" width="280px" height="370" alt="image">
+          <div class="wish_icon">
+            <i class="fa-regular fa-heart"></i>
+          </div>
+          <div class="text_price">
+            <div class="text_bold">
+              <h1>line Pattern Black H...</h1>
+              <h2>AS's  Brand</h2>
+            </div>
+            <div class="price_part">
+              <button type="button">$37.00</button>
+            </div>
+          </div>
+        </div>
+    
+        <div class="cart cart_display">
+          <img src="image/Rectangle 48.png" width="280px" height="370" alt="image">
+          <div class="wish_icon">
+            <i class="fa-regular fa-heart"></i>
+          </div>
+          <div class="text_price">
+            <div class="text_bold">
+              <h1>Black Shorts</h1>
+              <h2>MM's  Brand</h2>
+            </div>
+            <div class="price_part">
+              <button type="button">$37.00</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  
+</div>
+  </section>
+
+
+    <!-- <div class="color_section">
+      <div class="first_row">
+        <div class="purple">
+          <div class="color_purple"></div>
+          <h1>Purple</h1>
+        </div>
+
+        <div class="black">
+          <div class="color_black"></div>
+          <h1>Black</h1>
+        </div>
+
+        <div class="red">
+          <div class="color_red"></div>
+          <h1>Red</h1>
+        </div>
+
+        <div class="orange">
+          <div class="color_orange"></div>
+          <h1>Orange</h1>
+        </div>
+      </div> -->
+
+      <!-- second row -->
+
+      <!-- <div class="second_row">
+        <div class="navy">
+          <div class="color_navy"></div>
+          <h1>Navy</h1>
+        </div>
+
+        <div class="white">
+          <div class="color_white"></div>
+          <h1>White</h1>
+        </div>
+
+        <div class="broom">
+          <div class="color_broom"></div>
+          <h1>Broom</h1>
+        </div>
+
+        <div class="green">
+          <div class="color_green"></div>
+          <h1>Green</h1>
+        </div>
+      </div> -->
+
+      <!-- row3 -->
+
+      <!-- <div class="third_row">
+        <div class="yellow">
+          <div class="color_yellow"></div>
+          <h1>Yellow</h1>
+        </div>
+
+        <div class="grey">
+          <div class="color_grey"></div>
+          <h1>Grey</h1>
+        </div>
+
+        <div class="pink">
+          <div class="color_pink"></div>
+          <h1>Pink</h1>
+        </div>
+
+        <div class="blue">
+          <div class="color_blue"></div>
+          <h1>Blue</h1>
+        </div>
+      </div>
+    </div> -->
+
+      <!-- <div class="filter">
+        <h3>Tops</h3>
+        <i class="fa-solid fa-angle-right"></i>
+    </div>
+     -->
+
+
+
+     <!-- responsive acodian -->
+
+
+
+
+
+
+
+
+     <!-- clothing -->
+
+
+     <div class="clothing">
+      <div class="shape"></div>
+      <h2>Clothing for Women Online in India</h2>
+    </div>
+
+    <div class="clothing_describe">
+      <h1>Reexplore Women's Clothing Collection Online at Euphoria</h1>
+      <p>Women's Clothing - Are you searching for the best website to buy Clothing for Women online in India? Well, your search for the coolest and most stylish womens clothing ends here. From trendy Casual Womens Wear Online shopping to premium quality cotton women's apparel, <span>Euphoria</span> has closet of Women Collection covered with the latest and best designs of Women's Clothing Online.</p>
+      <p>Our collection of clothes for women will make you the trendsetter with an iconic resemblance of choice in Womens Wear. </p>
+      <h2>One-Stop Destination to Shop Every Clothing for Women: Euphoria</h2>
+      <p>Today, Clothing for Women is gaining more popularity above all. This is because gone are the days when women were used to carrying uncomfortable fashion. Today, a lady looks prettier when she is in Casual Womens Wear which is a comfortable outfit. Concerning this, <span>Euphoria</span> has a big fat range of Stylish Women's Clothing that would make her the winner wherever she goes. </p>
+      <p>Our collection of clothes for women will make you the trendsetter with an iconic resemblance of choice in Womens Wear. It is quite evident to say that there are very few Womens Clothing online stores where you can buy Western Wear for Women comprising the premium material and elegant design that you are always seeking for. Basically, </p>
+      <h1>See More</h1>
+    </div>
+
+
+
+    <!-- table -->
+
+
+    <div class="clothing">
+      <div class="shape"></div>
+      <h2>Buy Women's Clothing at Best Price</h2>
+    </div>
+
+
+    <table>
+      <tr>
+        <th>Women's Clothing</th>
+        <th>Best Price</th>
+      </tr>
+      <tr>
+        <td>Pick Any 4- Womens Plain T-shirt Combo</td>
+        <td>₹1099</td>
+      </tr>
+      <tr>
+        <td>Pick Any 4 - Women Plain Full Sleeve T-shirt Combo</td>
+        <td>₹1399</td>
+      </tr>
+      <tr>
+        <td>Multicolor Checkered Long Casual Shirts for Women</td>
+        <td>₹499</td>
+      </tr>
+      <tr>
+        <td>Pick Any 2: Plain Boxy Casual Shirts for Women Combo</td>
+        <td>₹799</td>
+      </tr>
+      <tr>
+        <td>Blue Floral Anarkali Kurti</td>
+        <td>₹599</td>
+      </tr>
+      <tr>
+        <td>Jade Black Narrow Cut Flexible Women Jeggings</td>
+        <td>₹998</td>
+      </tr>
+      <tr>
+        <td>Mustard-yellow Solid Straight-Fit Women Pant</td>
+        <td>₹499</td>
+      </tr>
+      <tr>
+        <td>Women Pants Combo - Pick Any 2</td>
+        <td>₹800</td>
+      </tr>
+      <tr>
+        <td>Pista Green Solid Boxy Casual Shirts for Women</td>
+        <td>₹449</td>
+      </tr>
+      <tr>
+        <td>Plain Burgundy Womens Boxer</td>
+        <td>₹349</td>
+      </tr>
+      <tr>
+        <td>Striped Front Tie Casual Shirts for Women</td>
+        <td>₹449</td>
+      </tr>
+    </table>
+
+
+     <!-- footer -->
+
+<!-- <section class="footer">
+  <div class="footers_padding">
+    <div class="footer_list">
+      <div class="need">
+        <h1>Need Help</h1>
+        <ol>
+          <li>Contact Us</li>
+          <li>Track Order</li>
+          <li>Returns & Refunds</li>
+          <li>FAQ's</li>
+          <li>Career</li>
+        </ol>
+      </div>
+
+      <div class="need">
+        <h1>Company</h1>
+        <ol>
+          <li>About Us</li>
+          <li>euphoria Blog</li>
+          <li>euphoriastan</li>
+          <li>Collaboration</li>
+          <li>Media</li>
+        </ol>
+      </div>
+
+      <div class="need">
+        <h1>More Info</h1>
+        <ol>
+          <li>Term and Conditions</li>
+          <li>Privacy Policy</li>
+          <li>Shipping Policy</li>
+          <li>Sitemap</li>
+        </ol>
+      </div>
+
+      <div class="need">
+        <h1>Location</h1>
+        <ol>
+          <li>support@euphoria.in</li>
+          <li>Eklingpura Chouraha, Ahmedabad Main Road</li>
+          <li>(NH 8- Near Mahadev Hotel) Udaipur, India- 313002</li>
+        </ol>
+      </div>
+    </div>
+
+    <div class="download">
+      <div class="social_icons">
+        <div class="media">
+          <i class="fa-brands fa-facebook"></i>
+        </div>
+        <div class="media">
+          <i class="fa-brands fa-instagram"></i>
+        </div>
+        <div class="media">
+          <i class="fa-brands fa-twitter"></i>
+        </div>
+        <div class="media">
+          <i class="fa-brands fa-linkedin"></i>
+        </div>
+      </div>
+      <div class="app_download">
+        <h1>Download The App </h1>
+        <div class="googlestore">
+          <div class="playstore">
+            <img src="image/Group.png" width="30px" height="30px" alt="logo">
+            <div class="google">
+              <h2>android app on</h2>
+              <h3>Google Play</h3>
+            </div>
+          </div>
+          <div class="playstore">
+            <img src="image/Group2.png" width="30px" height="30px" alt="logo">
+            <div class="google">
+              <h2>Available on the</h2>
+              <h3>App Store</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="dash"></div>
+  <div class="popular_catagory">
+    <h1>Popular Categories</h1>
+    <i class="fa-solid fa-angle-down"></i>
+  </div>
+  <div class="dash"></div>
+  <h5>Copyright © 2023 Euphoria Folks Pvt Ltd. All rights reserved.</h5>
+</section> -->
+
+
+
+<section class="footer">
+  <div class="footers_padding container-fluid">
+    <div class="footer_list row">
+      <div class="need col-6 col-md-6  col-lg-3 ">
+        <h1>Need Help</h1>
+        <ol>
+          <li>Contact Us</li>
+          <li>Track Order</li>
+          <li>Returns & Refunds</li>
+          <li>FAQ's</li>
+          <li>Career</li>
+        </ol>
+      </div>
+
+      <div class="need col-6 col-md-6  col-lg-3 ">
+        <h1>Company</h1>
+        <ol>
+          <li>About Us</li>
+          <li>euphoria Blog</li>
+          <li>euphoriastan</li>
+          <li>Collaboration</li>
+          <li>Media</li>
+        </ol>
+      </div>
+
+      <div class="need col-6 col-md-6  col-lg-3 ">
+        <h1>More Info</h1>
+        <ol>
+          <li>Term and Conditions</li>
+          <li>Privacy Policy</li>
+          <li>Shipping Policy</li>
+          <li>Sitemap</li>
+        </ol>
+      </div>
+
+      <div class="need col-6 col-md-6  col-lg-3 ">
+        <h1>Location</h1>
+        <ol>
+          <li>support@euphoria.in</li>
+          <li>Eklingpura Chouraha, Ahmedabad Main Road</li>
+          <li>(NH 8- Near Mahadev Hotel) Udaipur, India- 313002</li>
+        </ol>
+      </div>
+    </div>
+
+
+    
+
+
+
+
+    <div class="download">
+      <div class="social_icons">
+        <div class="media">
+          <i class="fa-brands fa-facebook"></i>
+        </div>
+        <div class="media">
+          <i class="fa-brands fa-instagram"></i>
+        </div>
+        <div class="media">
+          <i class="fa-brands fa-twitter"></i>
+        </div>
+        <div class="media">
+          <i class="fa-brands fa-linkedin"></i>
+        </div>
+      </div>
+      <div class="app_download">
+        <h1>Download The App </h1>
+        <div class="googlestore">
+          <div class="playstore">
+            <img src="image/Group.png" width="30px" height="30px" alt="logo">
+            <div class="google">
+              <h2>android app on</h2>
+              <h3>Google Play</h3>
+            </div>
+          </div>
+          <div class="playstore">
+            <img src="image/Group2.png" width="30px" height="30px" alt="logo">
+            <div class="google">
+              <h2>Available on the</h2>
+              <h3>App Store</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="dash"></div>
+  <div class="popular_catagory">
+    <h1>Popular Categories</h1>
+    <i class="fa-solid fa-angle-down"></i>
+  </div>
+  <div class="dash"></div>
+  <h5>Copyright © 2023 Euphoria Folks Pvt Ltd. All rights reserved.</h5>
+</section>
+
+
+     <script src="js/bootstrap.bundle.min.js"></script>
+     <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+     <script src="https://code.jquery.com/ui/1.14.1/jquery-ui.js"></script>
+
+     <!-- desktop acodian -->
+
+
+     <script>
+      $( function() {
+        $( "#slider-range" ).slider({
+          range: true,
+          min: 0,
+          max: 500,
+          values: [ 75, 300 ],
+          slide: function( event, ui ) {
+            $( "#amount" ).val( "$" + ui.values[ 0 ] + " - $" + ui.values[ 1 ] );
+          }
+        });
+        $( "#amount" ).val( "$" + $( "#slider-range" ).slider( "values", 0 ) +
+          " - $" + $( "#slider-range" ).slider( "values", 1 ) );
+      } );
+      </script>
+
+
+      <!-- responsive acodian -->
+
+  <script>
+   
+   const icon = document.getElementById('list_display');
+   const icontwo = document.getElementById('price_list');
+   const iconthree = document.getElementById('color_list');
+   const iconfour = document.getElementById('sizes_list');
+   const iconfive = document.getElementById('dress_style');
+
+   function lists(){
+
+      if(icon.style.display === "block"){
+         icon.style.display= "none";
+         icontwo.style.display = 'none';
+         iconthree.style.display = 'none';
+         iconfour.style.display = 'none';
+      }else{
+         icon.style.display= "block";
+         icontwo.style.display = 'none';
+         iconthree.style.display = 'none';
+         iconfour.style.display = 'none';
+      }
+   }
+
+   
+
+   function price(){
+      // const icon = document.getElementById('list_display');
+      // const icontwo = document.getElementById('price_list');
+
+      if(icontwo.style.display === "block"){
+         icontwo.style.display= "none";
+         icon.style.display = 'none';
+         iconthree.style.display = 'none';
+         iconfour.style.display = 'none';
+         iconfive.style.display = 'none';
+      }else{
+         icontwo.style.display= "block";
+         icon.style.display = 'none';
+         iconthree.style.display = 'none';
+         iconfour.style.display = 'none';
+         iconfive.style.display = 'none';
+      }
+   }
+
+   function colors(){
+
+      if(iconthree.style.display === "block"){
+         iconthree.style.display= "none";
+         icon.style.display = 'none';
+         icontwo.style.display = 'none';
+         iconfour.style.display = 'none';
+         iconfive.style.display = 'none';
+      }else{
+         iconthree.style.display= "block";
+         icon.style.display = 'none';
+         icontwo.style.display = 'none';
+         iconfour.style.display = 'none';
+         iconfive.style.display = 'none';
+      }
+   }
+
+   function sizes(){
+
+      if(iconfour.style.display === "block"){
+         iconthree.style.display= "none";
+         icon.style.display = 'none';
+         icontwo.style.display = 'none';
+         iconfour.style.display = 'none';
+         iconfive.style.display = 'none';
+      }else{
+         iconfour.style.display = 'block'
+         iconthree.style.display= "none";
+         icon.style.display = 'none';
+         icontwo.style.display = 'none';
+         iconfive.style.display = 'none';
+      }
+   }
+
+   function dressList(){
+
+      if(iconfive.style.display === "block"){
+         iconthree.style.display= "none";
+         icon.style.display = 'none';
+         icontwo.style.display = 'none';
+         iconfour.style.display = 'none';
+         iconfive.style.display = 'none';
+      }else{
+         iconfive.style.display = 'block';
+         iconfour.style.display = 'none';
+         iconthree.style.display= "none";
+         icon.style.display = 'none';
+         icontwo.style.display = 'none';
+      }
+   }
+</script>
+
+
+
+
+</body>
+
+</html>

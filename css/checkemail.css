@@ -1,0 +1,148 @@
+@font-face {
+    font-family: 'causten medium';
+    src: url(../Causten-Font-Family/Causten/Causten\ Bold.ttf)
+}
+@font-face {
+    font-family: 'causten bold';
+    src: url(../Causten-Font-Family/Causten/Causten\ Black.ttf);
+}
+@font-face {
+    font-family: 'causten semi-bold';
+    src: url(../Causten-Font-Family/Causten/Causten\ Semi\ Bold.ttf);
+}
+@font-face {
+    font-family: 'causten regular';
+    src: url(../Causten-Font-Family/Causten/Causten\ Regular.ttf);
+}
+@font-face {
+    font-family: 'causten extra bold';
+    src: url(../Causten-Font-Family/Causten/Causten\ Extra\ Bold.ttf);
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'causten medium';
+}
+h1,h2,h3,h4,h5,h6,p,ul,li{
+    margin: 0;
+    padding: 0;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+/* navbar */
+
+/* navbar */
+
+.navbar{
+    background-color: rgba(255, 255, 255, 1);
+    border-bottom: 1px solid rgba(60, 66, 66, 1);
+    width: 100%;
+    /* height: 110px; */
+    padding: 20px 100px !important;
+}
+.navbar{
+    padding: 20px;
+ }
+.btn-secondary{
+    background: none !important;
+    color: black !important;
+    border: none !important;
+}
+
+
+
+.image_form .form_fill h3{
+    font-size: 35px;
+    color: rgba(60, 66, 66, 1);
+    font-family: 'causten bold';
+}
+.image_form .form_fill p{
+    font-size: 16px;
+    color: rgba(60, 66, 66, 1);
+    padding-top: 10px;
+    width: 67%;
+    font-family: 'causten medium';
+}
+.image_form .form_fill p span{
+    color: rgba(138, 51, 253, 1);
+}
+.image_form .form_fill{
+    padding: 40px 200px 200px 100px;
+}
+
+
+
+.image_form .form_fill .icon_log{
+    display: flex;
+    padding-top: 30px;
+}
+.image_form .form_fill .icon_log i{
+    font-size: 12px;
+    padding-top: 5px;
+}
+.image_form .form_fill .icon_log h2{
+    font-size: 16px;
+    color: rgba(60, 66, 66, 1);
+    font-family: 'causten medium';
+    padding-left: 20px;
+}
+.image_form .form_fill .icon_log h2 span{
+    text-decoration: underline;
+}
+
+
+
+.image_form{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+@media screen  and (min-width:1025px) and (max-width:1366px){
+    
+}
+@media screen  and (min-width:769px) and (max-width:1024px){
+
+    .navbar{
+        padding: 20px 20px !important;
+    }
+    
+    .fashion_img img{
+        display: none;
+    }
+
+    .image_form{
+        display: block;
+    }
+    .image_form .form_fill{
+        padding: 20px;
+    }
+}
+@media screen  and (min-width:540px) and (max-width:768px){
+    
+}
+@media screen  and (min-width:320px) and (max-width:539px){
+    .navbar{
+        padding: 20px 20px !important;
+    }
+
+    /* form part */
+    
+    .image_form {
+        display: block;
+    }
+    
+    .fashion_img img{
+        display: none;
+    }
+    .image_form .form_fill{
+        padding: 20px;
+    }
+    .image_form .form_fill p {
+        width: 100%;
+    }
+}

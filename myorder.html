@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<!-- bootstrap -->
+
+<link rel="stylesheet" href="css/bootstrap.min.css">
+
+
+<!-- css -->
+<link rel="stylesheet" href="css/myorder.css">
+                    
+<!-- swiper js -->
+                    
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+                    
+<!-- icon -->
+                    
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+</head>
+<body>
+    
+
+         <!-- navbar -->
+
+
+         <section class="navbar">
+            <!-- <div class="nav"> -->
+                <div class="logo">
+                    <img src="image/Logoeuphoria.png" width="110px" height="45px" alt="logo">
+                </div>
+      
+                <div class="list_item">
+                    <ol>
+                        <li>Shop</li>
+                        <li>Men</li>
+                        <li>Women</li>
+                        <li>Combos</li>
+                        <li>Joggers</li>
+                    </ol>
+                </div>
+      
+                <div class="input_box">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <input type="text" placeholder="Search">
+                </div>
+      
+                <div class="icons">
+                    <div class="wish_icon">
+                        <!-- <i class="fa-regular fa-heart"></i> -->
+                         <!-- <svg class="heart-icon">
+                          <use href="assets/icons.svg#heart"></use>
+                         </svg> -->
+                    </div>
+                    <div class="user_icon">
+                        <!-- <i class="fa-regular fa-user"></i> -->
+                         <!-- <svg class="user_profile">
+                          <use href="assets/icons.svg#user"></use>
+                         </svg> -->
+                    </div>
+                    <div class="cart_icon">
+                      <!-- <svg class="shopping_cart">
+                        <use href="assets/icons.svg#cart_icon">
+      
+                        </use>
+                      </svg> -->
+                        <!-- <i class="fa-solid fa-cart-shopping"></i> -->
+                    </div>
+                </div>
+            <!-- </div> -->
+      
+        </section>
+      
+      
+        <section class="responsive_nav">
+        
+          <div class="right_offcanvas">
+            <!-- <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">Toggle right offcanvas</button> -->
+            <div class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
+              <i class="fa-solid fa-bars"></i>
+            </div>
+        
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+              <div class="offcanvas-header">
+                <h5 id="offcanvasRightLabel">Menu</h5>
+                <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+              </div>
+              <div class="offcanvas-body">
+                <ul>
+                  <li>Shop</li>
+                  <li>Men</li>
+                  <li>Women</li>
+                  <li>Combos</li>
+                  <li>Joggers</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        
+        
+            <div class="logo">
+              <img src="image/Logoeuphoria.png" width="110px" height="45px" alt="logo">
+            </div>
+        
+        
+            <div class="icons">
+              <div class="wish_icon">
+                  <i class="fa-regular fa-heart"></i>
+              </div>
+              <div class="user_icon">
+                  <i class="fa-regular fa-user"></i>
+              </div>
+              <div class="cart_icon">
+                  <i class="fa-solid fa-cart-shopping"></i>
+              </div>
+            </div>
+          </section>
+          <section class="search">
+            <div class="input_box">
+              <i class="fa-solid fa-magnifying-glass"></i>
+              <input type="text" placeholder="Search">
+            </div>
+          </section>
+    
+    
+    
+        <!-- home icons -->
+    
+    
+    <div class="select_feild">
+        <div class="home">
+            <h1>Home</h1>
+            <i class="fa-solid fa-angle-right"></i>
+        </div>
+        <div class="account">
+            <h1>My Account</h1>
+            <i class="fa-solid fa-angle-right"></i>
+        </div>
+        <div class="check">
+            <h1>Wishlist</h1>
+        </div>
+    </div>
+    
+    <!-- list form -->
+    
+    
+    <section class="list_edit">
+        <!-- profile list -->
+    
+        <div class="profile_list">
+            <div class="profile_name">
+                <div class="shape"></div>
+                <h2>Hello Jhanvi</h2>
+            </div>
+            <p>Welcome to your Account</p>
+            <ul>
+                <li><i class="fa-solid fa-bag-shopping"></i><h1>My orders</h1></li>
+                <li><i class="fa-solid fa-heart"></i><h1>Wishlist</h1></li>
+                <li><i class="fa-solid fa-user"></i><h1>My info</h1></li>
+                <li><i class="fa-solid fa-arrow-right-from-bracket"></i><h1>Sign out</h1></li>
+            </ul>
+        </div>
+
+        <!-- orders -->
+
+      <div class="orders">
+            <div class="headline">
+                <h1>My Orders</h1>
+            </div>
+            <!-- list -->
+
+            <div class="lists">
+                <ul>
+                    <li>Active</li>
+                    <li>Cancelled</li>
+                    <li>Completed</li>
+                </ul>
+            </div>
+
+            <!-- details -->
+
+            <div class="details">
+                <!-- order cart -->
+
+                <div class="order_cart">
+                    <div class="delivery">
+                        <h1>Order no: #123456789</h1>
+                        <h2>Order Date :<span> 2 June 2023 2:40 PM </span></h2>
+                        <h2>Estimated Delivery Date :<span>8 June 2023 </span> </h2>
+                    </div>
+                    <div class="status">
+                       <h1>Order Status :<span> Inprogress </span></h1> 
+                       <h2>Payment Method :<span> Cash on delivery </span></h2>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- view details -->
+
+            <div class="view_details">
+              <div class="image_amount">
+                <div class="picture">
+                  <img src="image/Rectangle 755.png" width="96px" height="96px" alt="image">
+                </div>
+                <div class="total_amount">
+                  <h1>Black Printed T-shirt</h1>
+                  <h2>Colour :<span> Pink </span></h2>
+                  <h3>Qty :<span> 1 </span></h3>
+                  <h4>Total : $23.00</h4>
+                </div>
+              </div>
+              <div class="button_details">
+                <button type="button">View Detail</button>
+              </div>
+            </div>
+
+
+            <!-- details -->
+
+            <div class="details">
+              <!-- order cart -->
+
+              <div class="order_cart">
+                  <div class="delivery">
+                      <h1>Order no: #123456789</h1>
+                      <h2>Order Date :<span> 2 June 2023 2:40 PM </span></h2>
+                      <h2>Estimated Delivery Date :<span>8 June 2023 </span> </h2>
+                  </div>
+                  <div class="status">
+                     <h1>Order Status :<span> Inprogress </span></h1> 
+                     <h2>Payment Method :<span> Cash on delivery </span></h2>
+                  </div>
+              </div>
+          </div>
+
+
+          <!-- view details -->
+
+          <div class="view_details">
+            <div class="image_amount">
+              <div class="picture">
+                <img src="image/Rectangle 759.png" width="96px" height="96px" alt="image">
+              </div>
+              <div class="total_amount">
+                <h1>Printed blue & white Cote </h1>
+                <h2>Colour :<span> White </span></h2>
+                <h3>Qty :<span> 1 </span></h3>
+                <h4>Total : $143.00</h4>
+              </div>
+            </div>
+            <div class="button_details">
+              <button type="button">View Detail</button>
+            </div>
+          </div>
+
+
+
+          <!-- details -->
+
+          <div class="details">
+            <!-- order cart -->
+
+            <div class="order_cart">
+                <div class="delivery">
+                    <h1>Order no: #123456789</h1>
+                    <h2>Order Date :<span> 2 June 2023 2:40 PM </span></h2>
+                    <h2>Estimated Delivery Date :<span>8 June 2023 </span> </h2>
+                </div>
+                <div class="status">
+                   <h1>Order Status :<span> Inprogress </span></h1> 
+                   <h2>Payment Method :<span> Cash on delivery </span></h2>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- view details -->
+
+        <div class="view_details">
+          <div class="image_amount">
+            <div class="picture">
+              <img src="image/Rectangle 760.png" width="96px" height="96px" alt="image">
+            </div>
+            <div class="total_amount">
+              <h1>Blue Shirt</h1>
+              <h2>Colour :<span> Blue </span></h2>
+              <h3>Qty :<span> 1 </span></h3>
+              <h4>Total : $93.00</h4>
+            </div>
+          </div>
+          <div class="button_details">
+            <button type="button">View Detail</button>
+          </div>
+        </div>
+
+      </div>
+
+
+
+
+              
+
+    </section>
+
+
+
+             <!-- footer -->
+
+             <section class="footer">
+                <div class="footers_padding container-fluid">
+                  <div class="footer_list row">
+                    <div class="need col-6 col-md-6  col-lg-3 ">
+                      <h1>Need Help</h1>
+                      <ol>
+                        <li>Contact Us</li>
+                        <li>Track Order</li>
+                        <li>Returns & Refunds</li>
+                        <li>FAQ's</li>
+                        <li>Career</li>
+                      </ol>
+                    </div>
+              
+                    <div class="need col-6 col-md-6  col-lg-3 ">
+                      <h1>Company</h1>
+                      <ol>
+                        <li>About Us</li>
+                        <li>euphoria Blog</li>
+                        <li>euphoriastan</li>
+                        <li>Collaboration</li>
+                        <li>Media</li>
+                      </ol>
+                    </div>
+              
+                    <div class="need col-6 col-md-6  col-lg-3 ">
+                      <h1>More Info</h1>
+                      <ol>
+                        <li>Term and Conditions</li>
+                        <li>Privacy Policy</li>
+                        <li>Shipping Policy</li>
+                        <li>Sitemap</li>
+                      </ol>
+                    </div>
+              
+                    <div class="need col-6 col-md-6  col-lg-3 ">
+                      <h1>Location</h1>
+                      <ol>
+                        <li>support@euphoria.in</li>
+                        <li>Eklingpura Chouraha, Ahmedabad Main Road</li>
+                        <li>(NH 8- Near Mahadev Hotel) Udaipur, India- 313002</li>
+                      </ol>
+                    </div>
+                  </div>
+              
+              
+                  
+              
+              
+              
+              
+                  <div class="download">
+                    <div class="social_icons">
+                      <div class="media">
+                        <i class="fa-brands fa-facebook"></i>
+                      </div>
+                      <div class="media">
+                        <i class="fa-brands fa-instagram"></i>
+                      </div>
+                      <div class="media">
+                        <i class="fa-brands fa-twitter"></i>
+                      </div>
+                      <div class="media">
+                        <i class="fa-brands fa-linkedin"></i>
+                      </div>
+                    </div>
+                    <div class="app_download">
+                      <h1>Download The App </h1>
+                      <div class="googlestore">
+                        <div class="playstore">
+                          <img src="image/Group.png" width="30px" height="30px" alt="logo">
+                          <div class="google">
+                            <h2>android app on</h2>
+                            <h3>Google Play</h3>
+                          </div>
+                        </div>
+                        <div class="playstore">
+                          <img src="image/Group2.png" width="30px" height="30px" alt="logo">
+                          <div class="google">
+                            <h2>Available on the</h2>
+                            <h3>App Store</h3>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              
+                <div class="dash"></div>
+                <div class="popular_catagory">
+                  <h1>Popular Categories</h1>
+                  <i class="fa-solid fa-angle-down"></i>
+                </div>
+                <div class="dash"></div>
+                <h5>Copyright © 2023 Euphoria Folks Pvt Ltd. All rights reserved.</h5>
+              </section>
+        
+        
+            <script src="jsfiles/bootstrap.bundle.min.js"></script>
+            <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+            <script src="https://code.jquery.com/ui/1.14.1/jquery-ui.js"></script>
+
+            <!-- side swiper -->
+             
+            <script src="js/bootstrap.bundle.min.js"></script>
+          <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+</body>
+</html>

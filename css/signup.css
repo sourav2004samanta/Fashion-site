@@ -1,0 +1,295 @@
+
+@font-face {
+    font-family: 'causten medium';
+    src: url(../Causten-Font-Family/Causten/Causten\ Bold.ttf)
+}
+@font-face {
+    font-family: 'causten bold';
+    src: url(../Causten-Font-Family/Causten/Causten\ Black.ttf);
+}
+@font-face {
+    font-family: 'causten semi-bold';
+    src: url(../Causten-Font-Family/Causten/Causten\ Semi\ Bold.ttf);
+}
+@font-face {
+    font-family: 'causten regular';
+    src: url(../Causten-Font-Family/Causten/Causten\ Regular.ttf);
+}
+@font-face {
+    font-family: 'causten extra bold';
+    src: url(../Causten-Font-Family/Causten/Causten\ Extra\ Bold.ttf);
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'causten medium';
+}
+h1,h2,h3,h4,h5,h6,p,ul,li{
+    margin: 0;
+    padding: 0;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.navbar{
+    background-color: rgba(255, 255, 255, 1);
+    border-bottom: 1px solid rgba(60, 66, 66, 1);
+    width: 100%;
+    /* height: 110px; */
+    padding: 20px 100px !important;
+}
+.navbar{
+    padding: 20px;
+ }
+.btn-secondary{
+    background: none !important;
+    color: black !important;
+    border: none !important;
+}
+
+
+
+
+.image_form .form_fill .google_input{
+    padding-top: 50px;
+}
+.image_form .form_fill h3{
+    font-size: 35px;
+    color: rgba(60, 66, 66, 1);
+    font-family: 'causten semi-bold';
+}
+.image_form .form_fill p{
+    font-size: 16px;
+    color: rgba(60, 66, 66, 1);
+    padding-top: 10px;
+}
+.image_form .form_fill{
+    padding: 40px 200px 200px 0px;
+}
+.image_form .form_fill .google_input button{
+    padding: 16px 210px 16px 190px;
+    border: 1px solid rgba(60, 66, 66, 1);
+    border-radius: 8px;
+    color: rgba(138, 51, 253, 1);
+    font-size: 22px;
+    background-color: white;
+
+}
+.image_form .form_fill .google_input{
+    position: relative;
+}
+.image_form .form_fill .google_input img{
+    position: absolute;
+    left: 155px;
+    top: 69px;
+}
+.image_form .form_fill .twitter_input button{
+    padding: 16px 210px 16px 190px;
+    border: 1px solid rgba(60, 66, 66, 1);
+    border-radius: 8px;
+    color: rgba(138, 51, 253, 1);
+    font-size: 22px;
+    background-color: white;
+    margin-top: 20px;
+}
+.image_form .form_fill .twitter_input{
+    position: relative;
+}
+.image_form .form_fill .twitter_input img{
+    position: absolute;
+    left: 155px;
+    top: 39px;
+}
+
+
+
+.image_form .form_fill  .user_name{
+    padding-top: 50px;
+}
+.image_form .form_fill  .user_name h5{
+    font-size: 18px;
+    color: rgba(60, 66, 66, 1);
+    font-family: 'causten regular';
+}
+.image_form .form_fill  .user_name input{
+    margin-top: 10px;
+    padding: 18px 420px 18px 20px;
+    border: 1px solid rgba(60, 66, 66, 1);
+    border-radius: 8px;
+    background-color: white;
+}
+.image_form .form_fill h1{
+    font-size: 16px;
+    color: rgba(238, 29, 82, 1);
+    padding-top: 10px;
+    font-family: 'causten regular';
+}
+
+
+
+.image_form .form_fill .password_hide .eye_hide h5{
+    font-size: 18px;
+    color: rgba(60, 66, 66, 1);
+    font-family: 'causten regular';
+}
+.image_form .form_fill .password_hide .eye_hide{
+    display: flex;
+}
+.image_form .form_fill .password_hide{
+    position: relative;
+    padding-top: 30px;
+}
+.image_form .form_fill .password_hide .eye_hide .icon{
+    display: flex;
+    position: absolute;
+    top: 30px;
+    left: 510px;
+}
+.image_form .form_fill .password_hide .eye_hide .icon h5{
+    padding-left: 15px;
+    color: rgba(60, 66, 66, 1);
+    font-family: 'causten regular';
+}
+.image_form .form_fill .password_hide .eye_hide .icon i{
+    font-size: 18px;
+    color: rgba(60, 66, 66, 1);
+}
+.image_form .form_fill .password_hide input{
+    margin-top: 10px;
+    padding: 20px 210px;
+    border: 1px solid rgba(60, 66, 66, 1);
+    border-radius: 8px;
+    background-color: white;
+}
+
+
+
+.image_form .form_fill h4{
+    font-size: 16px;
+    color: rgba(60, 66, 66, 1);
+    padding-top: 10px;
+}
+
+
+.image_form .form_fill .checkbox{
+    display: flex;
+    flex-direction: column;
+    padding-top: 30px;
+}
+.image_form .form_fill .checkbox label:nth-child(2){
+    padding-top: 20px;
+}
+/* .image_form .form_fill .checkbox label input{
+    color: white;
+    background-color: rgba(60, 66, 66, 1);
+} */
+
+
+.image_form .form_fill .button_signin button{
+    padding: 16px 60px;
+    font-size: 18px;
+    border: 2px solid rgba(138, 51, 253, 1);
+    border-radius: 8px;
+    background-color: rgba(138, 51, 253, 1);
+    color: white;
+    margin-top: 30px;
+    
+}
+label{
+    font-family: 'causten regular';
+}
+.image_form .form_fill .button_signin button:hover{
+    background-color: white;
+    border: 2px solid rgba(138, 51, 253, 1);
+    color: rgba(138, 51, 253, 1);;
+}
+.image_form .form_fill h2{
+    font-size: 16px;
+    color: rgba(60, 66, 66, 1);
+    padding-top: 10px;
+    font-family: 'causten regular';
+}
+.image_form .form_fill h2 span{
+    text-decoration: underline;
+}
+
+
+.image_form{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+@media screen  and (min-width:1025px) and (max-width:1366px){
+    
+}
+@media screen  and (min-width:769px) and (max-width:1024px){
+
+    .navbar{
+        padding: 20px 20px !important;
+    }
+    
+    .fashion_img img{
+        display: none;
+    }
+
+    .image_form{
+        display: block;
+    }
+    .image_form .form_fill{
+        padding: 20px;
+    }
+    .image_form .form_fill .google_input button {
+        width: 100%;
+    }
+    .image_form .form_fill .twitter_input button {
+        width: 100%;
+    }
+    .image_form .form_fill .user_name input {
+        padding: 20px;
+        width: 100%;
+    }
+    .image_form .form_fill .password_hide input {
+        padding: 20px;
+        width: 100%;
+    }
+}
+@media screen  and (min-width:540px) and (max-width:768px){
+    
+}
+@media screen  and (min-width:320px) and (max-width:539px){
+    .navbar{
+        padding: 20px 20px !important;
+    }
+    
+    .fashion_img img{
+        display: none;
+    }
+    .image_form{
+        display: block;
+    }
+    .image_form .form_fill{
+        padding: 20px;
+    }
+    .image_form .form_fill .google_input button {
+        width: 100%;
+        padding: 20px;
+    }
+    .image_form .form_fill .twitter_input button {
+        width: 100%;
+        padding: 20px;
+    }
+    .image_form .form_fill .user_name input {
+        padding: 20px;
+        width: 100%;
+    }
+    .image_form .form_fill .password_hide input {
+        padding: 20px;
+        width: 100%;
+    }
+}
