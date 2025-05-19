@@ -104,6 +104,7 @@ body{
     position: absolute;
     top: 15px;
     left: 46px;
+    
 }
 .icons i{
     font-size: 20px;
@@ -117,6 +118,10 @@ body{
     color: rgba(128, 125, 126, 1);
     position: relative;
 }
+.icons .wish_icon:hover{
+    background-color: rgba(138, 51, 253, 1);
+    color: white;
+}
 /* .icons .wish_icon:hover{
     background-color: rgba(128, 125, 126, 1);
     color: rgba(246, 246, 246, 1);
@@ -127,6 +132,7 @@ body{
     /* color: rgba(128, 125, 126, 1); */
     top: 12px;
     left: 14px;
+    
 }
 .icons .user_icon{
     background-color: rgba(246, 246, 246, 1);
@@ -136,6 +142,10 @@ body{
     color: rgba(128, 125, 126, 1);
     position: relative;
     margin-left: 12px;
+}
+.icons .user_icon:hover{
+    background-color: rgba(138, 51, 253, 1);
+    color: white;    
 }
 /* .icons .user_icon:hover{
     background-color: rgba(128, 125, 126, 1);
@@ -147,6 +157,7 @@ body{
     /* color: rgba(128, 125, 126, 1); */
     top: 12px;
     left: 14px;
+    
 }
 .icons .cart_icon{
     background-color: rgba(246, 246, 246, 1);
@@ -157,6 +168,16 @@ body{
     position: relative;
     margin-left: 12px;
 }
+.icons .cart_icon i{
+    color: rgba(128, 125, 126, 1);
+}
+.icons .cart_icon:hover{
+    background-color: rgba(138, 51, 253, 1);
+    color: white; 
+}
+.icons .cart_icon i:hover{
+    color: white;
+}
 /* .icons .cart_icon:hover{
     background-color: rgba(128, 125, 126, 1);
     color: rgba(246, 246, 246, 1);
@@ -166,7 +187,7 @@ body{
     font-size: 20px;
     /* color: rgba(128, 125, 126, 1); */
     top: 12px;
-    left: 14px;
+    left: 10px;
 }
 .icons{
     display: flex;
@@ -271,6 +292,9 @@ body{
 }
 .discount_cart .carts .cart_one .text_part h4:hover{
     text-decoration: underline;
+}
+.discount_cart .carts .cart_one .image:hover{
+    transform: scale(1.1);
 }
 
 

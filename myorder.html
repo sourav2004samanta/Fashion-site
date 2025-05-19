@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>My order</title>
 <!-- bootstrap -->
 
 <link rel="stylesheet" href="css/bootstrap.min.css">
@@ -53,13 +53,13 @@
       
                 <div class="icons">
                     <div class="wish_icon">
-                        <!-- <i class="fa-regular fa-heart"></i> -->
+                        <i class="fa-regular fa-heart"></i>
                          <!-- <svg class="heart-icon">
                           <use href="assets/icons.svg#heart"></use>
                          </svg> -->
                     </div>
                     <div class="user_icon">
-                        <!-- <i class="fa-regular fa-user"></i> -->
+                        <i class="fa-regular fa-user"></i>
                          <!-- <svg class="user_profile">
                           <use href="assets/icons.svg#user"></use>
                          </svg> -->
@@ -70,7 +70,7 @@
       
                         </use>
                       </svg> -->
-                        <!-- <i class="fa-solid fa-cart-shopping"></i> -->
+                        <i class="fa-solid fa-cart-shopping"></i>
                     </div>
                 </div>
             <!-- </div> -->
@@ -160,16 +160,209 @@
             </div>
             <p>Welcome to your Account</p>
             <ul>
-                <li><i class="fa-solid fa-bag-shopping"></i><h1>My orders</h1></li>
-                <li><i class="fa-solid fa-heart"></i><h1>Wishlist</h1></li>
-                <li><i class="fa-solid fa-user"></i><h1>My info</h1></li>
+                <li onclick="orders()" id="order_list"><i class="fa-solid fa-bag-shopping"></i><h1>My orders</h1></li>
+                <li onclick="wishlist()" id="wish_list"><i class="fa-solid fa-heart"></i><h1>Wishlist</h1></li>
+                <li onclick="information()" id="info_list"><i class="fa-solid fa-user"></i><h1>My info</h1></li>
                 <li><i class="fa-solid fa-arrow-right-from-bracket"></i><h1>Sign out</h1></li>
             </ul>
         </div>
 
+
+            <!-- my info -->
+
+
+        <div class="edit_swapper" id="form_info">
+          <div class="form_edit">
+              <h1>My Info</h1>
+              <h2>Contact Details</h2>
+
+                  <form>
+                      <div class="form-group">
+                        <label for="exampleInputEmail1">Your Name</label>
+                        <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter name">
+                        <h3>Change</h3>
+                      </div>
+                      <div class="form-group">
+                          <label for="exampleInputEmail1">Email Address</label>
+                          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                          <h3>Change</h3>
+                      </div>
+                      <div class="form-group">
+                          <label for="exampleInputEmail1">Phone Number</label>
+                          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter number">
+                          <h3>Change</h3>
+                      </div>
+                      <div class="form-group">
+                        <label for="exampleInputPassword1">Password</label>
+                        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                        <h3>Change</h3>
+                      </div>
+                    </form>
+          </div>
+
+            <!-- address cart -->
+             
+          <div class="cart_info">
+            <div class="add_addresss">
+              <h1>Address</h1>
+              <a href="addaddress.html">
+              <h2>Add New</h2>
+              </a>
+            </div>
+            <div class="top_cart">
+              <div class="cart_details">
+                <div class="text_part">
+                  <h1>Jhanvi shah</h1>
+                  <h2>8980252445</h2>
+                  <p>1/4 Pragatinagar Flats, opp. jain derasar , near Jain
+                    derasar, Vijaynagar road </p>
+                  <div class="buttons">
+                    <button type="button">Home</button>
+                    <button type="button">Default billing address</button>
+                  </div>
+                  <div class="remove_edit">
+                    <h1>Remove</h1>
+                    <h1>Edit</h1>
+                  </div>
+                </div>
+              </div>
+              <div class="cart_details">
+                <div class="text_part">
+                  <h1>Jhanvi shah</h1>
+                  <h2>8980252445</h2>
+                  <p>1/4 Pragatinagar Flats, opp. jain derasar , near Jain
+                    derasar, Vijaynagar road </p>
+                  <div class="buttons">
+                    <button type="button">Home</button>
+                    <button type="button">Default billing address</button>
+                  </div>
+                  <div class="remove_edit">
+                    <h1>Remove</h1>
+                    <h1>Edit</h1>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="top_cart">
+              <div class="cart_details">
+                <div class="text_part">
+                  <h1>Jhanvi shah</h1>
+                  <h2>8980252445</h2>
+                  <p>1/4 Pragatinagar Flats, opp. jain derasar , near Jain
+                    derasar, Vijaynagar road </p>
+                  <div class="buttons">
+                    <button type="button">Home</button>
+                    <button type="button">Default billing address</button>
+                  </div>
+                  <div class="remove_edit">
+                    <h1>Remove</h1>
+                    <h1>Edit</h1>
+                  </div>
+                </div>
+              </div>
+              <div class="cart_details">
+                <div class="text_part">
+                  <h1>Jhanvi shah</h1>
+                  <h2>8980252445</h2>
+                  <p>1/4 Pragatinagar Flats, opp. jain derasar , near Jain
+                    derasar, Vijaynagar road </p>
+                  <div class="buttons">
+                    <button type="button">Home</button>
+                    <button type="button">Default billing address</button>
+                  </div>
+                  <div class="remove_edit">
+                    <h1>Remove</h1>
+                    <h1>Edit</h1>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+
+    <!-- wishlist -->
+
+
+        <div class="wishlist" id="wishlist">
+        <h1>Wishlist</h1>
+            <div class="wishlist_cart">
+                <div class="wish_left">
+                    <i class="fa-solid fa-xmark"></i>
+                    <img src="image/Rectangle 754.png" width="110px" height="110px" alt="image">
+                    <div class="wish_text">
+                        <h1>Blue Flower Print Crop Top </h1>
+                        <h2>Color :<span>Yellow</span></h2>
+                        <h3>Quantity :<span>1</span></h3>
+                    </div>
+                </div>
+                <div class="wish_right">
+                    <h1>$29.00</h1>
+                    <button type="button">Add to cart</button>
+                </div>
+            </div>
+
+            <div class="dash"></div>
+
+            <div class="wishlist_cart">
+                <div class="wish_left">
+                    <i class="fa-solid fa-xmark"></i>
+                    <img src="image/Rectangle 755.png" width="110px" height="110px" alt="image">
+                    <div class="wish_text">
+                        <h1>Yellow Flower Print Dress </h1>
+                        <h2>Color :<span>Yellow</span></h2>
+                        <h3>Quantity :<span>1</span></h3>
+                    </div>
+                </div>
+                <div class="wish_right">
+                    <h1>$78.00</h1>
+                    <button type="button">Add to cart</button>
+                </div>
+            </div>
+
+            <div class="dash"></div>
+
+            <div class="wishlist_cart">
+                <div class="wish_left">
+                    <i class="fa-solid fa-xmark"></i>
+                    <img src="image/Rectangle 756.png" width="110px" height="110px" alt="image">
+                    <div class="wish_text">
+                        <h1>White Hoodie long sleeve</h1>
+                        <h2>Color :<span>White</span></h2>
+                        <h3>Quantity :<span>1</span></h3>
+                    </div>
+                </div>
+                <div class="wish_right">
+                    <h1>$134.00</h1>
+                    <button type="button">Add to cart</button>
+                </div>
+            </div>
+
+            <div class="dash"></div>
+
+            <div class="wishlist_cart">
+                <div class="wish_left">
+                    <i class="fa-solid fa-xmark"></i>
+                    <img src="image/Rectangle 757.png" width="110px" height="110px" alt="image">
+                    <div class="wish_text">
+                        <h1>Brown men's long sleeve T-shirt</h1>
+                        <h2>Color :<span>Brown</span></h2>
+                        <h3>Quantity :<span>1</span></h3>
+                    </div>
+                </div>
+                <div class="wish_right">
+                    <h1>$93.00</h1>
+                    <button type="button">Add to cart</button>
+                </div>
+            </div>
+    </div>
+
         <!-- orders -->
 
-      <div class="orders">
+      <div class="orders" id="orders">
             <div class="headline">
                 <h1>My Orders</h1>
             </div>
@@ -419,5 +612,63 @@
              
             <script src="js/bootstrap.bundle.min.js"></script>
           <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+
+
+             <!-- clixk js -->
+
+    <script>
+
+      const ordersButton = document.getElementById('orders');
+      const wishlistButton = document.getElementById('wishlist');
+      const formButton = document.getElementById('form_info');
+
+
+      const orderlist = document.getElementById('order_list');
+      const wishlists = document.getElementById('wish_list');
+      const infolist = document.getElementById('info_list');
+
+
+
+      function orders(){
+        ordersButton.style.display = 'block';
+        formButton.style.display = 'none';
+        wishlistButton.style.display = 'none';
+        orderlist.style.background = 'rgba(246, 246, 246, 1)';
+        orderlist.style.borderLeft = '1px solid rgba(60, 66, 66, 1) ';
+        orderlist.style.color = 'rgba(128, 125, 126, 1)';
+        infolist.style.background = 'none';
+        infolist.style.border = 'none';
+        wishlists.style.background = 'none';
+        wishlists.style.border = 'none';
+
+
+        // orderlist.style.backgroundColor = 'rgba(246, 246, 246, 1)';
+      }
+      function wishlist(){
+        ordersButton.style.display = 'none';
+        formButton.style.display = 'none';
+        wishlistButton.style.display = 'block';
+        wishlists.style.background = 'rgba(246, 246, 246, 1)';
+        wishlists.style.borderLeft = '1px solid rgba(60, 66, 66, 1) ';
+        wishlists.style.color = 'rgba(128, 125, 126, 1)';
+        infolist.style.background = 'none';
+        infolist.style.border = 'none';
+        orderlist.style.background = 'none';
+        orderlist.style.border = 'none';
+      }
+      function information(){
+        ordersButton.style.display = 'none';
+        formButton.style.display = 'block';
+        wishlistButton.style.display = 'none';
+        infolist.style.background = 'rgba(246, 246, 246, 1)';
+        infolist.style.borderLeft = '1px solid rgba(60, 66, 66, 1) ';
+        infolist.style.color = 'rgba(128, 125, 126, 1)';
+        orderlist.style.background = 'none';
+        orderlist.style.border = 'none';
+        wishlists.style.background = 'none';
+        wishlists.style.border = 'none';
+      }
+    </script>
 </body>
 </html>

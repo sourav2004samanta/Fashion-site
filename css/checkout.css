@@ -312,14 +312,14 @@ form label{
     /* width: 30%; */
 }
 #inputState{
-    padding: 16px 160px 16px 20px;
+    padding: 16px 15px 16px 20px;
     color: rgba(128, 125, 126, 1);
     font-family: 'causten regular';
     font-size:14px;
     /* width: 30%; */
 }
 #inputZip{
-    padding: 16px 160px 16px 20px;
+    padding: 16px 15px 16px 20px;
     color: rgba(128, 125, 126, 1);
     font-family: 'causten regular';
     font-size:14px;
@@ -329,8 +329,12 @@ form label{
     margin-top: 25px;
 }
 .margin_sideleft{
-    margin-left: 15px;
+    margin-left: 40px;
     margin-top: 25px;
+    width: 23%;
+}
+.margin_sideleft:nth-child(3){
+    margin-left: 15px;
 }
 
 .margin_up{
@@ -445,6 +449,83 @@ form label{
 .margin_row{
     margin-top: 30px;
 }
+
+
+
+
+
+/* order summary */
+
+
+.order_cart{
+    width: 400px;
+    height: 650px;
+    border: 1px solid rgba(128, 125, 126, 1);
+    border-radius: 10px;
+}
+.order_cart:hover{
+    box-shadow: 5px 2px 10px 0px rgb(210 211 214)
+}
+.order_summary h1{
+    padding: 40px 20px 0px 20px;
+    font-size: 24px;
+    font-family: 'causten bold';
+    color: rgba(60, 66, 66, 1);
+}
+.order_cart .dash{
+    border: 1px solid rgba(237, 238, 242, 1);
+    margin: 20px 10px;
+    width: 95%;
+}
+.describe_amount{
+    padding: 0px 20px;
+}
+.describe{
+    display: flex;
+}
+.describe .iteam_name{
+    margin-left: 15px;
+    margin-top: 10px;
+}
+.describe .iteam_name h1{
+    color: rgba(60, 66, 66, 1);
+    font-size: 14px;
+    font-family: 'causten bold';
+}
+.describe .iteam_name h1 span{
+    color: rgba(128, 125, 126, 1);
+    font-family: 'causten medium';
+}
+.amount p{
+    color: rgba(128, 125, 126, 1);
+    font-size: 14px;
+    font-family: 'causten bold';
+    margin-top: 12px;
+}
+.describe_amount{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.sub_total{
+    padding: 0px 20px;
+    display: flex;
+    justify-content: space-between;
+}
+#gap{
+    padding-top: 15px;
+}
+.sub_total h2{
+    font-size: 18px;
+    color: rgba(60, 66, 66, 1);
+    font-family: 'causten bold';
+}
+.sub_total h2 span{
+    color: rgba(128, 125, 126, 1);
+}
+
 
 
 /* footer */
@@ -792,12 +873,47 @@ h5{
         width: 60%;
     }
 
+
+    /* logo */
+
+    .brand_logo{
+        width: 100px;
+    }
+    .logos {
+        width: 100%;
+    }
+
+
+    /* order cart */
+
+    .order_cart {
+        width: 100%;
+        margin-top: 50px;
+        height: 700px;
+    }
+    .describe img{
+        width: 80px;
+        height: 80px;
+    }
+    .describe .iteam_name h1{
+        font-size: 18px;
+    }
+    .amount p{
+        font-size: 18px;
+    }
+    .describe_amount {
+        padding: 0px 35px;
+    }
+
     
     /* footer */
 
 .footer .dash {
     width: 95%;
     margin: 30px 20px 0px 20px;
+}
+.footer .footers_padding .footer_list .need ol{
+    padding-left: 0px;
 }
 
 
@@ -983,6 +1099,7 @@ h5{
     } */
     #inputEmail4{
         padding: 10px 20px;
+        width: 100%;
     }
     .margin_side{
         margin-left: 0px;
@@ -990,6 +1107,7 @@ h5{
     }
     #inputPassword4{
         padding: 10px 20px;
+        width: 100%;
     }
     .margin_sideleft{
         margin-left: 0px;
@@ -1010,6 +1128,21 @@ h5{
         padding: 10px 20px;
         margin-top: 10px;
     }
+    .margin_sideleft:nth-child(3) {
+        margin-left: 0px;
+    }
+    #responsive_form{
+        display: flex;
+        justify-content: space-between;
+    }
+
+
+    /* logos */
+
+    .brand_logo {
+        height: 50px;
+    }
+
 
 
     /* radio part */
@@ -1024,7 +1157,17 @@ h5{
     .form-control{
         padding: 10px 20px;
         margin-top: 20px;
+        width: 100%;
     }
+
+    /* order_cart  */
+
+    .order_cart {
+        margin-top: 50px;
+        width: 100%;
+    }
+
+    
 
 
 

@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Cart page</title>
 
     <link rel="stylesheet" href="css/bootstrap.min.css">
 
@@ -52,13 +52,13 @@
       
                 <div class="icons">
                     <div class="wish_icon">
-                        <!-- <i class="fa-regular fa-heart"></i> -->
+                        <i class="fa-regular fa-heart"></i>
                          <!-- <svg class="heart-icon">
                           <use href="assets/icons.svg#heart"></use>
                          </svg> -->
                     </div>
                     <div class="user_icon">
-                        <!-- <i class="fa-regular fa-user"></i> -->
+                        <i class="fa-regular fa-user"></i>
                          <!-- <svg class="user_profile">
                           <use href="assets/icons.svg#user"></use>
                          </svg> -->
@@ -69,7 +69,7 @@
       
                         </use>
                       </svg> -->
-                        <!-- <i class="fa-solid fa-cart-shopping"></i> -->
+                        <i class="fa-solid fa-cart-shopping"></i>
                     </div>
                 </div>
             <!-- </div> -->
@@ -344,7 +344,7 @@
 
 
     <section class="discount">
-      <div class="dicount">
+      <div class="dicount_codes">
         <div class="left_part">
           <h1>Discount  Codes</h1>
           <h2>Enter your coupon code if you have one</h2>
@@ -352,7 +352,7 @@
             <input type="text">
             <button type="button">Apply Coupon</button>
           </div>
-          <button type="button">Continue Shopping</button>
+          <button type="button" id="continue_button">Continue Shopping</button>
         </div>
 
         <div class="amount">
@@ -360,7 +360,7 @@
             <h2>Sub Total </h2>
             <h2>$513.00</h2>
           </div>
-          <div class="shipping">
+          <div class="shipping_cost">
             <h2>Shipping</h2>
             <h2>$5.00</h2>
           </div>
@@ -370,7 +370,9 @@
           </div>
           <div class="dashtwo"></div>
           <div class="procced">
+            <a href="checkout.html">
             <button type="button">Proceed To Checkout</button>
+            </a>
           </div>
         </div>
       </div>

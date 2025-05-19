@@ -107,6 +107,10 @@ body{
     color: rgba(128, 125, 126, 1);
     position: relative;
 }
+.icons .wish_icon:hover{
+    background-color: rgba(138, 51, 253, 1);
+    color: white;
+}
 /* .icons .wish_icon:hover{
     background-color: rgba(128, 125, 126, 1);
     color: rgba(246, 246, 246, 1);
@@ -127,6 +131,10 @@ body{
     position: relative;
     margin-left: 12px;
 }
+.icons .user_icon:hover{
+    background-color: rgba(138, 51, 253, 1);
+    color: white;    
+}
 /* .icons .user_icon:hover{
     background-color: rgba(128, 125, 126, 1);
     color: rgba(246, 246, 246, 1);
@@ -139,11 +147,11 @@ body{
     left: 14px;
 }
 .icons .cart_icon{
-    background-color: rgba(246, 246, 246, 1);
+    background-color: rgba(138, 51, 253, 1);
     width: 44px;
     height: 44px;
     border-radius: 8px;
-    color: rgba(128, 125, 126, 1);
+    color: white;
     position: relative;
     margin-left: 12px;
 }
@@ -156,7 +164,7 @@ body{
     font-size: 20px;
     /* color: rgba(128, 125, 126, 1); */
     top: 12px;
-    left: 14px;
+    left: 10px;
 }
 .icons{
     display: flex;
@@ -260,7 +268,7 @@ body{
 
 .image_describe{
     display: flex;
-    width: 19%;
+    /* width: 47%; */
 }
 .image_describe .describe{
     margin-left: 20px;
@@ -284,11 +292,10 @@ body{
     font-size: 18px;
     color: rgba(60, 66, 66, 1);
     font-family: 'causten bold';
-    margin-left: 60px;
+    /* margin-left: 44px; */
 }
 .price{
-    width: 10%;
-    text-align: center;
+    margin-left: 50px;
 }
 
 
@@ -297,12 +304,12 @@ body{
  .quantity_wrap{
     background-color: rgba(246, 246, 246, 1);
     border-radius: 12px;
-    width: 33% !important;
+    /* width: 33% !important; */
     height: 50px;
     
 }
 .quantity{
-    width: 26%;
+    width: 33%;
     display: flex;
     justify-content: center;
 }
@@ -338,7 +345,7 @@ body{
     font-family: 'causten bold';
 }
 .shipping{
-    width: 12%;
+    width: 5%;
     text-align: center;
 }
 
@@ -351,17 +358,140 @@ body{
     font-family: 'causten bold';
 }
 .sub_total{
-    width: 26%;
+    width: 32%;
     text-align: center;
 }
 .action{
-    margin-left: 80px;
+    margin-left: 30px;
 }
 .dash{
     margin: 20px 100px;
     border: 1px solid rgba(190, 188, 189, 1);
-    width: 90%;
+    box-shadow: 1px 2px 2px 1px #e3dede;
+    /* width: 90%; */
 }
+
+
+
+
+/* discount codes */
+
+
+.discount{
+    width: 100%;
+    height: 440px;
+    background-color: rgba(243, 243, 243, 1);
+}
+.discount .dicount_codes{
+    padding: 0px 100px;
+    display: flex;
+    justify-content: space-between;
+}
+#continue_button{
+    border: 1px solid rgba(190, 188, 189, 1);
+    background-color: white;
+    border-radius: 12px;
+    padding: 12px 50px;
+    margin-top: 50px;
+}
+.left_part{
+    margin-top: 30px;
+}
+.left_part h1{
+    font-size: 24px;
+    color: rgba(60, 66, 66, 1);
+    font-family: 'causten semi-bold';
+}
+.left_part h2{
+    color: rgba(128, 125, 126, 1);
+    padding-top: 10px;
+    font-family: 'causten regular';
+    font-size: 16px;
+}
+.apply_coupon input{
+    background-color: white;
+    border: 1px solid rgba(190, 188, 189, 1);
+    border-radius: 12px;
+    padding: 12px 80px 12px 10px;
+}
+.apply_coupon{
+    position: relative;
+    margin-top: 40px;
+}
+.apply_coupon button{
+    background-color: rgba(138, 51, 253, 1);
+    border: 1px solid rgba(138, 51, 253, 1);
+    border-radius: 12px;
+    padding: 12px 30px;
+    color: white;
+    position: absolute;
+    top: 0;
+    left: 117px;
+}
+
+
+
+/* amount */
+
+
+.amount{
+    background-color: rgb(231, 230, 230);
+    width: 470px;
+    height: 440px;
+}
+.amount .sub_total h2{
+    color: rgba(60, 66, 66, 1);
+    font-size: 22px;
+    font-family: 'causten medium';
+}
+.amount .sub_total{
+    padding: 40px 90px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.shipping_cost{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 15px 90px;
+}
+.shipping_cost h2{
+    color: rgba(60, 66, 66, 1);
+    font-size: 22px;
+    font-family: 'causten medium';
+}
+.total{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 15px 90px;
+}
+.total h2{
+    color: rgba(60, 66, 66, 1);
+    font-size: 22px;
+    font-family: 'causten bold';
+}
+
+.amount .dashtwo{
+    width: 100%;
+    border: 1px solid rgba(190, 188, 189, 1);
+    margin-top: 50px;
+}
+.procced button{
+    background-color: rgba(138, 51, 253, 1);
+    border: 1px solid rgba(138, 51, 253, 1);
+    border-radius: 12px;
+    padding: 12px 30px;
+    color: white;
+    margin-top: 50px;
+}
+.procced{
+    display: flex;
+    justify-content: center;
+}
+
+
 
 /* footer */
 
@@ -387,6 +517,7 @@ body{
 }
 .footer .footers_padding .footer_list .need ol{
     padding-top: 20px;
+    padding-left: 0px;
 }
 .footer .footers_padding .footer_list .need ol li:nth-child(1){
     padding-top: 0px;
@@ -415,7 +546,7 @@ body{
 .footer .footers_padding .download{
     display: flex;
     justify-content: space-between;
-
+    width: 95%;
 }
 .footer .footers_padding .download .social_icons .media{
     margin-left: 10px;
@@ -488,5 +619,700 @@ h5{
     --bs-gutter-x: 0rem !important;
 }
 .footer{
-    margin-top: 50px;
+    /* margin-top: 50px; */
+}
+.footer .dash {
+    width: 95%;
+    margin: 30px 20px 0px 20px;
+}
+
+
+
+@media screen  and (min-width:1025px) and (max-width:1366px){
+    
+}
+@media screen  and (min-width:769px) and (max-width:1024px){
+
+
+       /* navbar */
+
+
+
+        .navbar{
+            display: none;
+        }
+    
+       .responsive_nav{
+        display: block;
+        display: flex;
+        justify-content: space-between;
+        padding: 20px;
+       }
+    
+       .icons .wish_icon i {
+        position: absolute;
+        font-size: 14px;
+     
+        top: 10px;
+        left: 11px;
+        }
+        .icons .wish_icon {
+        background-color: rgba(246, 246, 246, 1);
+        width: 35px;
+        height: 35px;
+        border-radius: 8px;
+        position: relative;
+        }
+        .icons .user_icon i {
+            position: absolute;
+            font-size: 14px;
+         
+            top: 10px;
+            left: 11px;
+        }
+        .icons .user_icon {
+            background-color: rgba(246, 246, 246, 1);
+            width: 35px;
+            height: 35px;
+            border-radius: 8px;
+            position: relative;
+        }
+        .icons .cart_icon i {
+            position: absolute;
+            font-size: 14px;
+         
+            top: 10px;
+            left: 11px;
+        }
+        .icons .cart_icon {
+            background-color: rgba(138, 51, 253, 1);
+            color: white;
+            width: 35px;
+            height: 35px;
+            border-radius: 8px;
+            position: relative;
+        }
+        .icons{
+            margin-top: 10px;
+        }
+    
+        /* navbar hamburger */
+    
+        .btn-primary{
+            background: none;
+            color: rgba(128, 125, 126, 1);
+            border: 1px solid rgba(128, 125, 126, 1);
+            width: 35px;
+            height: 35px;
+            padding: 4px;
+        }
+        .btn-primary:hover{
+            background-color: rgba(128, 125, 126, 1);
+            color: white;
+            border-color: rgba(128, 125, 126, 1);
+        }
+    
+        .responsive_nav .logo img{
+            width: 100px;
+            height: 50px;
+        }
+        .right_offcanvas{
+            margin-top: 10px;
+        }
+    
+        .offcanvas.offcanvas-end{
+            width: 50%;
+        }
+        .offcanvas-body{
+            padding: 0px;
+        }
+        .offcanvas-body li{
+            list-style: none;
+            font-size: 16px;
+            color: rgba(128, 125, 126, 1);
+            margin-top: 20px;
+            padding: 10px;
+        }
+        .offcanvas-body li:nth-child(1){
+            margin-top: 0px;
+        }
+        .offcanvas-body li:hover{
+            color: rgb(90, 103, 103);
+            background-color: rgb(173, 171, 171);
+        }
+        .offcanvas-body ul{
+            padding: 0;
+        }
+        .offcanvas-header{
+            padding: 10px;
+        }
+        .offcanvas-header h5{
+            font-size: 35px;
+            color: rgb(90, 103, 103);
+        }
+        .search{
+            display: block;
+            padding: 0px 20px 20px 20px;
+        }
+        .search .input_box input {
+            padding: 12px 48px 12px 48px;
+            width: 100%;
+            border: 1px solid rgb(90, 103, 103);
+        }
+        .search .input_box i {
+            font-size: 15px;
+            color: rgba(128, 125, 126, 1);
+            position: absolute;
+            top: 18px;
+            left: 18px;
+        }
+
+
+
+         /* home icon */
+
+
+    .select_feild {
+        display: flex;
+        padding-left: 20px;
+        padding-top: 15px;
+    }
+    .paragraph p {
+        width: 95%;
+        padding: 10px 0px 0px 20px;
+    }
+    .shopping_cart ul {
+        padding: 20px;
+    }
+    .shopping_cart ul li {
+        font-size: 14px;
+    }
+    .cart_product{
+        padding: 20px;
+    }
+    .image_part img{
+        width: 50px;
+        height: 50px;
+    }
+
+
+    /* image describe */
+
+
+    .image_describe .describe {
+        margin-left: 16px;
+        width: 104px;
+        margin-top: 0px;
+    }
+    .image_describe {
+        display: flex;
+    }
+    .image_describe .describe h1 {
+        font-size: 14px;
+    }
+
+
+    /* price */
+
+    .price p {
+        font-size: 16px;
+        margin-top: 8px;
+    }
+    .price {
+        margin-left: 10px;
+    }
+
+
+    /* quantity */
+
+    .buttons .minus {
+        font-size: 16px;
+       
+    }
+    .buttons .plus {
+        font-size: 16px;
+        margin-left: 18px;
+    }
+    .buttons .number {
+        font-size: 16px;
+        margin-left: 18px;
+    }
+    .quantity_wrap .buttons {
+        padding: 10px;
+    }
+    .quantity_wrap {
+        height: 40px;
+        /* width: 50%; */
+    }
+    .quantity {
+        width: 26%;
+        margin-left: 0px;
+    }
+
+    /* shipping */
+
+
+    .shipping {
+        width: 10%;
+        margin-left: 5px;
+    }
+    .shipping h1{
+        font-size: 16px;
+        margin-top: 8px;
+    }
+
+
+    /* subtotal */
+
+    .sub_total {
+        width: 20%;
+        text-align: center;
+        margin-left: 20px;
+    }
+    .sub_total h1{
+        font-size: 16px;
+        margin-top: 8px;
+    }
+
+
+    .action {
+        margin-left: 45px;
+    }
+    .action img{
+        width: 17px;
+        height: 18px;
+        margin-top: 4px;
+    }
+
+
+    .dash {
+        margin: 20px;
+    }
+
+
+    /* discont codes */
+
+
+    .discount{
+        height: auto;
+    }
+    .discount .dicount_codes {
+        padding: 0px 0px;
+        display: block;
+    }
+    .left_part{
+        margin-top: 0px;
+        padding: 20px;
+    }
+    .left_part h1 {
+        font-size: 22px;
+    }
+    .left_part h2 {
+        font-size: 16px;
+        padding-top: 0px;
+    }
+    .apply_coupon input {
+        padding: 10px;
+        width: 100%;
+    }
+    .apply_coupon button {
+        padding: 10px;
+        position: absolute;
+        top: 0;
+        left: 611px;
+        width: 20%;
+    }
+    #continue_button {
+    padding: 10px;
+    margin-top: 30px;
+    font-size: 12px;
+    }
+
+
+    .amount {
+    background-color: rgb(231, 230, 230);
+    width: 100%;
+    height: 400px;
+    }
+    .amount .sub_total {
+        padding: 20px;
+        margin: 0px;
+    }
+    .shipping_cost {
+        padding: 20px;
+    }
+    .total{
+        padding: 20px;
+    }
+    .amount .dashtwo {
+        margin-top: 30px;
+    }
+
+
+}
+@media screen  and (min-width:540px) and (max-width:768px){
+    
+    
+}
+@media screen  and (min-width:320px) and (max-width:539px){
+
+
+    .responsive_nav {
+        display: block;
+        display: flex;
+        justify-content: space-between;
+        padding: 20px;
+    }
+    .navbar{
+        display: none;
+    }
+     .icons .wish_icon i {
+    position: absolute;
+    font-size: 14px;
+ 
+    top: 10px;
+    left: 11px;
+    }
+    .icons .wish_icon {
+    background-color: rgba(246, 246, 246, 1);
+    width: 35px;
+    height: 35px;
+    border-radius: 8px;
+    position: relative;
+    }
+    .icons .user_icon i {
+        position: absolute;
+        font-size: 14px;
+     
+        top: 10px;
+        left: 11px;
+    }
+    .icons .user_icon {
+        background-color: rgba(246, 246, 246, 1);
+        width: 35px;
+        height: 35px;
+        border-radius: 8px;
+        position: relative;
+    }
+    .icons .cart_icon i {
+        position: absolute;
+        font-size: 14px;
+     
+        top: 10px;
+        left: 11px;
+    }
+    .icons .cart_icon {
+        background-color: rgba(138, 51, 253, 1);
+        color: white;
+        width: 35px;
+        height: 35px;
+        border-radius: 8px;
+        position: relative;
+    }
+    .icons{
+        margin-top: 10px;
+    }
+
+    /* navbar hamburger */
+
+    .btn-primary{
+        background: none;
+        color: rgba(128, 125, 126, 1);
+        border: 1px solid rgba(128, 125, 126, 1);
+        width: 35px;
+        height: 35px;
+        padding: 4px;
+    }
+    .btn-primary:hover{
+        background-color: rgba(128, 125, 126, 1);
+        color: white;
+        border-color: rgba(128, 125, 126, 1);
+    }
+
+    .responsive_nav .logo img{
+        width: 100px;
+        height: 50px;
+    }
+    .right_offcanvas{
+        margin-top: 10px;
+    }
+
+    .offcanvas.offcanvas-end{
+        width: 50%;
+    }
+    .offcanvas-body{
+        padding: 0px;
+    }
+    .offcanvas-body li{
+        list-style: none;
+        font-size: 16px;
+        color: rgba(128, 125, 126, 1);
+        margin-top: 20px;
+        padding: 10px;
+    }
+    .offcanvas-body li:nth-child(1){
+        margin-top: 0px;
+    }
+    .offcanvas-body li:hover{
+        color: rgb(90, 103, 103);
+        background-color: rgb(173, 171, 171);
+    }
+    .offcanvas-body ul{
+        padding: 0;
+    }
+    .offcanvas-header{
+        padding: 10px;
+    }
+    .offcanvas-header h5{
+        font-size: 35px;
+        color: rgb(90, 103, 103);
+    }
+    .search{
+        display: block;
+        padding: 0px 20px 20px 20px;
+    }
+    .search .input_box input {
+        padding: 12px 48px 12px 48px;
+        width: 100%;
+        border: 1px solid rgb(90, 103, 103);
+    }
+    .search .input_box i {
+        font-size: 15px;
+        color: rgba(128, 125, 126, 1);
+        position: absolute;
+        top: 18px;
+        left: 18px;
+    }
+    .search {
+        display: block;
+        padding: 0px 20px 20px 20px;
+        border-bottom: 1px solid rgb(90, 103, 103);
+    }
+
+
+    /* home icon */
+
+
+    .select_feild {
+        display: flex;
+        padding-left: 20px;
+        padding-top: 15px;
+    }
+    .paragraph p {
+        width: 95%;
+        padding-left: 20px;
+    }
+    .shopping_cart ul {
+        padding: 10px 20px;
+    }
+    .shopping_cart ul li {
+        font-size: 11px;
+    }
+    .cart_product{
+        padding: 20px;
+    }
+    .image_part img{
+        width: 50px;
+        height: 50px;
+    }
+
+
+    /* image describe */
+
+
+    .image_describe .describe {
+        margin-left: 0px;
+        width: 90px;
+        margin-top: 20px;
+    }
+    .image_describe {
+        display: block;
+    }
+    .image_describe .describe h1 {
+        font-size: 14px;
+    }
+
+
+    /* price */
+
+    .price p {
+        font-size: 14px;
+        margin-top: 8px;
+    }
+    .price {
+        margin-left: 10px;
+    }
+
+
+    /* quantity */
+
+    .buttons .minus {
+        font-size: 14px;
+       
+    }
+    .buttons .plus {
+        font-size: 14px;
+        margin-left: 7px;
+    }
+    .buttons .number {
+        font-size: 14px;
+        margin-left: 7px;
+    }
+    .quantity_wrap .buttons {
+        padding: 10px;
+    }
+    .quantity_wrap {
+        height: 40px;
+    }
+    .quantity {
+        width: 19%;
+        margin-left: 0px;
+    }
+
+    /* shipping */
+
+
+    .shipping {
+        width: 10%;
+        margin-left: 5px;
+    }
+    .shipping h1{
+        font-size: 14px;
+        margin-top: 8px;
+    }
+
+
+    /* subtotal */
+
+    .sub_total {
+        width: 12%;
+        text-align: center;
+        margin-left: 18px;
+    }
+    .sub_total h1{
+        font-size: 14px;
+        margin-top: 8px;
+    }
+
+
+    .action {
+        margin-left: 35px;
+    }
+    .action img{
+        width: 14px;
+        height: 15px;
+        margin-top: 4px;
+    }
+
+
+    .dash {
+        margin: 20px;
+    }
+
+
+    /* discont codes */
+
+
+    .discount{
+        height: auto;
+    }
+    .discount .dicount_codes {
+        padding: 0px 0px;
+        display: block;
+    }
+    .left_part{
+        margin-top: 0px;
+        padding: 20px;
+    }
+    .left_part h1 {
+        font-size: 22px;
+    }
+    .left_part h2 {
+        font-size: 16px;
+        padding-top: 0px;
+    }
+    .apply_coupon input {
+        padding: 10px;
+        width: 100%;
+    }
+    .apply_coupon button {
+        padding: 10px;
+        position: absolute;
+        top: 0;
+        left: 269px;
+    }
+    #continue_button {
+    padding: 10px;
+    margin-top: 30px;
+    font-size: 12px;
+    }
+
+
+    .amount {
+    background-color: rgb(231, 230, 230);
+    width: 100%;
+    height: 400px;
+    }
+    .amount .sub_total {
+        padding: 20px;
+        margin: 0px;
+    }
+    .shipping_cost {
+        padding: 20px;
+    }
+    .total{
+        padding: 20px;
+    }
+    .amount .dashtwo {
+        margin-top: 30px;
+    }
+
+
+    /* footer */
+
+.footer .footers_padding {
+    padding: 30px 20px;
+    margin-top: 0px;
+}
+
+.footer .footers_padding .footer_list .need ol {
+    padding-top: 20px;
+    padding-left: 5px;
+    margin-bottom: 3rem;
+}
+
+.footer .footers_padding .download{
+    display: block;
+}
+.footer .footers_padding .download .social_icons {
+    padding-top: 0px;
+    margin: 0 auto;
+}
+.download .app_download{
+    padding-top: 30px;
+}
+.footer .footers_padding .download .app_download .googlestore{
+    padding-top: 20px;
+}
+.footer .footers_padding .download .app_download h1 {
+    font-size: 20px;
+}
+
+.footer .dash {
+    width: 90%;
+    margin: 20px 20px 0px 20px;
+}
+
+.footer .popular_catagory h1 {
+    padding: 20px 20px 0px 20px;
+}
+
+.footer h5 {
+    /* display: none; */
+}
+.footer h5 {
+    font-size: 12px;
+    padding: 20px 0px 20px 0px;
+}
+
 }
