@@ -86,6 +86,14 @@ body{
     font-family: 'causten bold';
     text-decoration: underline;
 }
+.list_item ol li:nth-child(3) a{
+    color: rgba(60, 66, 66, 1);
+    text-decoration: none;
+}
+.list_item ol li:nth-child(3) a:hover{
+    font-family: 'causten bold';
+    text-decoration: underline;
+}
 .input_box input{
     padding: 12px 48px 12px 80px;
     background-color: rgba(246, 246, 246, 1);
@@ -168,16 +176,17 @@ body{
     position: relative;
     margin-left: 12px;
 }
-.icons .cart_icon i{
+/* .icons .cart_icon i{
     color: rgba(128, 125, 126, 1);
-}
+} */
 .icons .cart_icon:hover{
     background-color: rgba(138, 51, 253, 1);
-    color: white; 
+    color: white;    
 }
-.icons .cart_icon i:hover{
+/* .icons .cart_icon i:hover{
     color: white;
-}
+} */
+/*  */
 /* .icons .cart_icon:hover{
     background-color: rgba(128, 125, 126, 1);
     color: rgba(246, 246, 246, 1);
@@ -767,20 +776,27 @@ body{
 .shoping_iteams .explore .explore_now h1{
     font-size: 18px;
     color:rgba(60, 66, 66, 1);
+    /* text-decoration: none !important; */
 }
 .shoping_iteams .explore .explore_now h2{
     font-size: 14px;
     padding-top: 5px;
     color:rgba(60, 66, 66, 1);
 }
+.shopping_top a{
+    text-decoration: none;
+}
 .shoping_iteams .explore .explore_now h2:hover{
     text-decoration: underline;
-    text-decoration-thickness: 2px ;
+    /* text-decoration-thickness: 2px ; */
 }
 .shoping_iteams .explore{
     width: 270px;
     display: flex;
     justify-content: space-between;
+}
+.icons_right i{
+    color:rgba(60, 66, 66, 1);
 }
 /* .catagories .shoping_cart{
     display: flex;
@@ -949,6 +965,7 @@ text-decoration-thickness: 2px ;
     padding: 10px;
     border-radius: 50%;
     font-size: 12px;
+    color: rgba(60, 66, 66, 1);
 }
 .cart .wish_icon i:hover{
     background-color: #f75555;
@@ -1229,9 +1246,12 @@ h5{
        .icons .wish_icon i {
         position: absolute;
         font-size: 14px;
-     
+        color: rgba(128, 125, 126, 1);
         top: 10px;
         left: 11px;
+        }
+        .icons .wish_icon i:hover{
+            color: white;
         }
         .icons .wish_icon {
         background-color: rgba(246, 246, 246, 1);
@@ -1239,13 +1259,21 @@ h5{
         height: 35px;
         border-radius: 8px;
         position: relative;
+        color: rgba(128, 125, 126, 1);
+        }
+        .icons .wish_icon:hover{
+        background-color: rgba(138, 51, 253, 1);
+        color: white;
         }
         .icons .user_icon i {
             position: absolute;
             font-size: 14px;
-         
+            color: rgba(128, 125, 126, 1);
             top: 10px;
             left: 11px;
+        }
+        .icons .user_icon i:hover{
+            color: white;
         }
         .icons .user_icon {
             background-color: rgba(246, 246, 246, 1);
@@ -1347,7 +1375,7 @@ h5{
 
         /* swipper */
 
-    .banner .banner_image{
+    .banner .banner_image img{
         height: 400px;
     }
     .banner .text {

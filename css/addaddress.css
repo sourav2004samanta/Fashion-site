@@ -260,15 +260,15 @@ h1,h2,h3,h4,h5,h6,p,ul,li{
 .profile_list ul li{
     display: flex;
     margin-top: 30px;
-    padding: 10px 20px;
-    width: 80%;
+    padding: 15px 10px;
+    width: 60%;
 }
 #info_list{
     background-color: rgba(246, 246, 246, 1);
     color: rgba(128, 125, 126, 1);
     border-left:1px solid rgba(60, 66, 66, 1) ;
-    padding: 10px 20px;
-    width: 80%;
+    padding: 15px 10px;
+    width: 60%;
 }
 .profile_list ul li:nth-child(1){
     margin-top: 0px;
@@ -777,7 +777,7 @@ h5{
         left: 11px;
     }
     .icons .user_icon {
-        background-color: rgba(246, 246, 246, 1);
+        background-color: rgba(138, 51, 253, 1);
         width: 35px;
         height: 35px;
         border-radius: 8px;
@@ -894,15 +894,23 @@ left: 18px;
     }
     .profile_list ul li{
         margin-top: 0px;
+        padding: 12px !important;
     }
     .profile_list ul li i {
-        font-size: 14px;
+        font-size: 20px;
     }
     .profile_list ul li h1{
-        font-size: 14px;
+        font-size: 17px;
     }
     .margin_side {
         margin-left: 20px;
+    }
+
+
+    /* form */
+
+    form{
+        margin-left: 0px;
     }
 
 
@@ -918,14 +926,17 @@ left: 18px;
             padding-top: 20px;
             width: 65%;
          }
+         .wish_left i {
+            padding-top: 25px;
+        }
          .wish_left img {
-            margin-left: 0px;
+            margin-left: 30px;
             width: 70px;
             height: 70px;
         }
         .wish_text h1{
             padding-top: 0px;
-            font-size: 16px;
+            font-size: 18px;
         }
         .wish_text h2 {
             font-size: 15px;
@@ -937,12 +948,12 @@ left: 18px;
             margin-left: 20px;
         }
         .wish_right button {
-            padding: 6px 14px;
-            font-size: 10px;
+            padding: 8px 32px;
+            font-size: 14px;
             margin-left: 20px;
         }
         .wish_right  h1 {
-            font-size: 16px;
+            font-size: 18px;
             padding-top: 0px;
         }
 
@@ -1069,7 +1080,7 @@ left: 18px;
         left: 11px;
     }
     .icons .user_icon {
-        background-color: rgba(246, 246, 246, 1);
+        background-color: rgba(138, 51, 253, 1);
         width: 35px;
         height: 35px;
         border-radius: 8px;
@@ -1186,12 +1197,14 @@ left: 18px;
     }
     .profile_list ul li{
         margin-top: 0px;
+        padding: 5px !important;
     }
     .profile_list ul li i {
         font-size: 14px;
     }
     .profile_list ul li h1{
         font-size: 14px;
+        margin-left: 6px;
     }
 
 
@@ -1209,6 +1222,9 @@ left: 18px;
         font-family: 'causten semi-bold';
         font-size: 16px;
     }
+    form{
+        margin-left: 0px;
+    }
 
 
 
@@ -1224,8 +1240,11 @@ left: 18px;
         padding-top: 20px;
         width: 65%;
      }
+     .wish_left i {
+        padding-top: 26px;
+    }
      .wish_left img {
-        margin-left: 0px;
+        margin-left: 15px;
         width: 70px;
         height: 70px;
     }

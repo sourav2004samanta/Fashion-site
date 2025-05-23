@@ -721,11 +721,12 @@ h5{
                 left: 11px;
             }
             .icons .cart_icon {
-                background-color: rgba(246, 246, 246, 1);
+                background-color: rgba(138, 51, 253, 1);
                 width: 35px;
                 height: 35px;
                 border-radius: 8px;
                 position: relative;
+                color: white;
             }
             .icons{
                 margin-top: 10px;
@@ -978,11 +979,12 @@ h5{
             left: 11px;
         }
         .icons .cart_icon {
-            background-color: rgba(246, 246, 246, 1);
+            background-color: rgba(138, 51, 253, 1);
             width: 35px;
             height: 35px;
             border-radius: 8px;
             position: relative;
+            color: white;
         }
         .icons{
             margin-top: 10px;

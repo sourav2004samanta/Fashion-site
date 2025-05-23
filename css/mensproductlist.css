@@ -107,6 +107,10 @@ body{
     color: rgba(128, 125, 126, 1);
     position: relative;
 }
+.icons .wish_icon:hover{
+    background-color: rgba(138, 51, 253, 1);
+    color: white;
+}
 /* .icons .wish_icon:hover{
     background-color: rgba(128, 125, 126, 1);
     color: rgba(246, 246, 246, 1);
@@ -118,10 +122,6 @@ body{
     top: 12px;
     left: 14px;
 }
-.icons .wish_icon:hover{
-    background-color: rgba(138, 51, 253, 1);
-    color: white;
-}
 .icons .user_icon{
     background-color: rgba(246, 246, 246, 1);
     width: 44px;
@@ -130,6 +130,10 @@ body{
     color: rgba(128, 125, 126, 1);
     position: relative;
     margin-left: 12px;
+}
+.icons .user_icon:hover{
+    background-color: rgba(138, 51, 253, 1);
+    color: white;
 }
 /* .icons .user_icon:hover{
     background-color: rgba(128, 125, 126, 1);
@@ -142,10 +146,6 @@ body{
     top: 12px;
     left: 14px;
 }
-.icons .user_icon:hover{
-    background-color: rgba(138, 51, 253, 1);
-    color: white;
-}
 .icons .cart_icon{
     background-color: rgba(246, 246, 246, 1);
     width: 44px;
@@ -154,6 +154,10 @@ body{
     color: rgba(128, 125, 126, 1);
     position: relative;
     margin-left: 12px;
+}
+.icons .cart_icon:hover{
+    background-color: rgba(138, 51, 253, 1);
+    color: white;
 }
 /* .icons .cart_icon:hover{
     background-color: rgba(128, 125, 126, 1);
@@ -165,10 +169,6 @@ body{
     /* color: rgba(128, 125, 126, 1); */
     top: 12px;
     left: 14px;
-}
-.icons .cart_icon:hover{
-    background-color: rgba(138, 51, 253, 1);
-    color: white;
 }
 .icons{
     display: flex;
