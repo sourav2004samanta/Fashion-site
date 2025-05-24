@@ -69,10 +69,14 @@ body{
     padding-top: 10px;
     color: rgba(60, 66, 66, 1);
 }
+.list_item ol li a{
+    color: rgba(60, 66, 66, 1);
+    text-decoration: none;
+}
 .list_item ol li:nth-child(1){
     margin-left: 0px;
 }
-.list_item ol li:hover{
+.list_item ol li a:hover{
     font-family: 'causten bold';
     text-decoration: underline;
 }
@@ -733,6 +737,13 @@ h5{
             margin-top: 20px;
             padding: 10px;
         }
+        .offcanvas-body a li{
+            color: rgba(60, 66, 66, 1);
+        }
+        .offcanvas-body a{
+            text-decoration: none;
+
+        }
         .offcanvas-body li:nth-child(1){
             margin-top: 0px;
         }
@@ -1049,6 +1060,12 @@ h5{
         color: rgba(128, 125, 126, 1);
         margin-top: 20px;
         padding: 10px;
+    }
+    .offcanvas-body a li{
+        color: rgba(60, 66, 66, 1);
+    }
+    .offcanvas-body a{
+        text-decoration: none;
     }
     .offcanvas-body li:nth-child(1){
         margin-top: 0px;

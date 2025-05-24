@@ -67,10 +67,14 @@ h1,h2,h3,h4,h5,h6,p,ul,li{
     padding-top: 10px;
     color: rgba(60, 66, 66, 1);
 }
+.list_item ol li a{
+    text-decoration: none;
+    color: rgba(60, 66, 66, 1);
+}
 .list_item ol li:nth-child(1){
     margin-left: 0px;
 }
-.list_item ol li:hover{
+.list_item ol li a:hover{
     font-family: 'causten bold';
     text-decoration: underline;
 }
@@ -838,6 +842,13 @@ color: rgba(128, 125, 126, 1);
 margin-top: 20px;
 padding: 10px;
 }
+.offcanvas-body ul a li{
+    color: rgba(60, 66, 66, 1);
+}
+.offcanvas-body ul a{
+    text-decoration: none;
+    
+}
 .offcanvas-body li:nth-child(1){
 margin-top: 0px;
 }
@@ -1137,9 +1148,12 @@ left: 18px;
     .offcanvas-body li{
         list-style: none;
         font-size: 16px;
-        color: rgba(128, 125, 126, 1);
+        color: rgba(60, 66, 66, 1);
         margin-top: 20px;
         padding: 10px;
+    }
+    .offcanvas-body a{
+        text-decoration: none;
     }
     .offcanvas-body li:nth-child(1){
         margin-top: 0px;

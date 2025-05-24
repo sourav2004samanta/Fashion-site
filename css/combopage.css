@@ -70,7 +70,7 @@ body{
     color: rgba(60, 66, 66, 1);
 }
 .list_item ol li a{
-    color:  rgba(60, 66, 66, 1);
+    color: rgba(60, 66, 66, 1);
     text-decoration: none;
 }
 .list_item ol li:nth-child(1){
@@ -892,16 +892,12 @@ h5{
         .offcanvas-body li{
             list-style: none;
             font-size: 16px;
-            color: rgba(128, 125, 126, 1);
+            color: rgba(60, 66, 66, 1);
             margin-top: 20px;
             padding: 10px;
         }
         .offcanvas-body a{
             text-decoration: none;
-        }
-        .offcanvas-body a li{
-            color:  rgba(60, 66, 66, 1);
-
         }
         .offcanvas-body li:nth-child(1){
             margin-top: 0px;
@@ -1665,3 +1661,4 @@ h5{
 
 
 }
+

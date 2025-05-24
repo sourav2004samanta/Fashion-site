@@ -69,10 +69,14 @@ h1,h2,h3,h4,h5,h6,p,ul,li{
     padding-top: 10px;
     color: rgba(60, 66, 66, 1);
 }
+.list_item ol li a{
+    color: rgba(60, 66, 66, 1);
+    text-decoration: none;
+}
 .list_item ol li:nth-child(1){
     margin-left: 0px;
 }
-.list_item ol li:hover{
+.list_item ol li a:hover{
     font-family: 'causten bold';
     text-decoration: underline;
 }
@@ -893,9 +897,15 @@ h5{
     .offcanvas-body li{
         list-style: none;
         font-size: 16px;
-        color: rgba(128, 125, 126, 1);
+        color: rgba(60, 66, 66, 1);
         margin-top: 20px;
         padding: 10px;
+    }
+    .offcanvas-body li:hover{
+        font-family: 'causten bold';
+    }
+    .offcanvas-body a {
+        text-decoration: none;
     }
     .offcanvas-body li:nth-child(1){
         margin-top: 0px;
@@ -1244,7 +1254,7 @@ h5{
     .offcanvas-body li{
         list-style: none;
         font-size: 16px;
-        color: rgba(128, 125, 126, 1);
+        color: rgba(60, 66, 66, 1);
         margin-top: 20px;
         padding: 10px;
     }
@@ -1257,6 +1267,16 @@ h5{
     }
     .offcanvas-body ul{
         padding: 0;
+    }
+    .offcanvas-body ul a{
+        text-decoration: none;
+        font-family: 'causten medium';
+        color: rgba(60, 66, 66, 1);
+    }
+    .offcanvas-body ul a:hover{
+        font-family: 'causten bold';
+        /* text-decoration: underline; */
+        color: rgba(60, 66, 66, 1);
     }
     .offcanvas-header{
         padding: 10px;
